@@ -110,7 +110,7 @@ export const App: React.FC = () => {
       <Hero />
 
       {/* Main Catalog Area */}
-      <main className="container" style={{ flex: 1, padding: '2rem 1.5rem' }}>
+      <main className="container main-content">
         
         {/* Category Filters */}
         <CategoryFilter

@@ -33,7 +33,7 @@ export const Hero: React.FC = () => {
             <Recycle size={16} /> Catálogo Oficial de Fábrica
           </div>
 
-          <h1 className="mobile-hero-title" style={{ fontSize: '2.8rem', fontWeight: 800, lineHeight: 1.2, marginBottom: '1.2rem', color: '#ffffff' }}>
+          <h1 className="mobile-hero-title text-break" style={{ fontSize: '2.8rem', fontWeight: 800, lineHeight: 1.2, marginBottom: '1.2rem', color: '#ffffff' }}>
             Soluções Profissionais em <span style={{ color: '#34d399' }}>Lixeiras & Coleta Seletiva</span>
           </h1>
 

@@ -186,7 +186,7 @@ export const ProductModal: React.FC<ProductModalProps> = ({
                 {product.code && <span className="badge badge-accent">Cód: {product.code}</span>}
               </div>
 
-              <h2 style={{ fontSize: '1.45rem', fontWeight: 800, color: 'var(--slate-900)', marginBottom: '0.75rem', lineHeight: 1.2 }}>
+              <h2 className="text-break" style={{ fontSize: '1.6rem', fontWeight: 800, color: 'var(--slate-900)', marginBottom: '0.8rem', lineHeight: 1.2 }}>
                 {product.name}
               </h2>
 

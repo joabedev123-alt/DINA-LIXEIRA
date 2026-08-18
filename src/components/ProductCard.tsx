@@ -63,28 +63,10 @@ export const ProductCard: React.FC<ProductCardProps> = ({
       )}
 
       {/* Image Container */}
-      <div style={{
-        width: '100%',
-        backgroundColor: '#f1f5f9',
-        overflow: 'hidden',
-        position: 'relative',
-        cursor: 'pointer',
-        display: 'flex',
-        alignItems: 'center',
-        justifyContent: 'center'
-      }} onClick={() => onViewDetails(product)}>
+      <div className="product-image-wrapper" onClick={() => onViewDetails(product)}>
         <img
           src={product.catalogImage || product.image}
           alt={product.name}
-          style={{
-            width: '100%',
-            height: 'auto',
-            objectFit: 'contain',
-            display: 'block',
-            transition: 'transform 0.4s ease'
-          }}
-          onMouseOver={(e) => (e.target as HTMLElement).style.transform = 'scale(1.06)'}
-          onMouseOut={(e) => (e.target as HTMLElement).style.transform = 'scale(1)'}
           onError={(e) => {
             (e.target as HTMLImageElement).src = product.image;
           }}
@@ -117,6 +99,7 @@ export const ProductCard: React.FC<ProductCardProps> = ({
         </div>
 
         <h3
+          className="text-break"
           onClick={() => onViewDetails(product)}
           style={{
             fontSize: '1.1rem',
@@ -130,7 +113,7 @@ export const ProductCard: React.FC<ProductCardProps> = ({
           {product.name}
         </h3>
 
-        <p style={{
+        <p className="text-break" style={{
           fontSize: '0.85rem',
           color: 'var(--slate-600)',
           marginBottom: '1rem',
