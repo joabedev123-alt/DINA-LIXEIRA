@@ -72,43 +72,6 @@ export const Header: React.FC<HeaderProps> = ({
           />
         </div>
 
-        {/* Quote Basket Button */}
-        <button
-          onClick={onOpenQuote}
-          style={{
-            position: 'relative',
-            display: 'inline-flex',
-            alignItems: 'center',
-            gap: '0.6rem',
-            padding: '0.65rem 1.2rem',
-            borderRadius: 'var(--radius-full)',
-            backgroundColor: 'var(--primary-600)',
-            color: '#fff',
-            border: 'none',
-            fontWeight: 600,
-            fontSize: '0.9rem',
-            cursor: 'pointer',
-            boxShadow: '0 4px 12px rgba(16, 185, 129, 0.3)',
-            transition: 'all var(--transition-fast)'
-          }}
-          onMouseOver={(e) => e.currentTarget.style.backgroundColor = 'var(--primary-700)'}
-          onMouseOut={(e) => e.currentTarget.style.backgroundColor = 'var(--primary-600)'}
-        >
-          <ShoppingBag size={18} />
-          <span>Meu Orçamento</span>
-          {quoteCount > 0 && (
-            <span style={{
-              backgroundColor: '#fff',
-              color: 'var(--primary-700)',
-              borderRadius: 'var(--radius-full)',
-              padding: '0.1rem 0.5rem',
-              fontSize: '0.75rem',
-              fontWeight: 800
-            }}>
-              {quoteCount}
-            </span>
-          )}
-        </button>
       </div>
     </header>
   );

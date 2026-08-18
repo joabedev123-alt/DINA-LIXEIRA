@@ -9,7 +9,7 @@ import { AboutSection } from './components/AboutSection';
 import { Footer } from './components/Footer';
 import { categories, products } from './data/products';
 import { Product, QuoteItem } from './types';
-import { SearchX, Filter } from 'lucide-react';
+import { SearchX, Filter, ShoppingBag } from 'lucide-react';
 
 export const App: React.FC = () => {
   const [showSplash, setShowSplash] = useState<boolean>(true);
@@ -223,6 +223,60 @@ export const App: React.FC = () => {
         onRemoveItem={handleRemoveQuoteItem}
         onClearQuote={handleClearQuote}
       />
+
+      {/* Floating Quote Basket Button */}
+      <button
+        onClick={() => setIsQuoteOpen(true)}
+        style={{
+          position: 'fixed',
+          bottom: '1.5rem',
+          right: '1.5rem',
+          zIndex: 45,
+          width: '60px',
+          height: '60px',
+          display: 'flex',
+          alignItems: 'center',
+          justifyContent: 'center',
+          borderRadius: '50%',
+          backgroundColor: 'var(--primary-600)',
+          color: '#fff',
+          border: 'none',
+          cursor: 'pointer',
+          boxShadow: '0 8px 24px rgba(16, 185, 129, 0.4)',
+          transition: 'all var(--transition-fast)'
+        }}
+        onMouseOver={(e) => {
+          e.currentTarget.style.backgroundColor = 'var(--primary-700)';
+          e.currentTarget.style.transform = 'translateY(-3px) scale(1.05)';
+        }}
+        onMouseOut={(e) => {
+          e.currentTarget.style.backgroundColor = 'var(--primary-600)';
+          e.currentTarget.style.transform = 'translateY(0) scale(1)';
+        }}
+        title="Meu Orçamento"
+      >
+        <ShoppingBag size={26} />
+        {quoteItems.reduce((acc, i) => acc + i.quantity, 0) > 0 && (
+          <span style={{
+            position: 'absolute',
+            top: '0',
+            right: '0',
+            backgroundColor: '#ef4444',
+            color: '#fff',
+            borderRadius: 'var(--radius-full)',
+            width: '22px',
+            height: '22px',
+            display: 'flex',
+            alignItems: 'center',
+            justifyContent: 'center',
+            fontSize: '0.75rem',
+            fontWeight: 800,
+            border: '2px solid #fff'
+          }}>
+            {quoteItems.reduce((acc, i) => acc + i.quantity, 0)}
+          </span>
+        )}
+      </button>
 
       {/* Footer */}
       <Footer />
