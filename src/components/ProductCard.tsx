@@ -74,8 +74,9 @@ export const ProductCard: React.FC<ProductCardProps> = ({
         <div style={{
           position: 'absolute',
           bottom: '0.6rem',
-          left: '0.6rem',
-          right: '0.6rem',
+          left: '50%',
+          transform: 'translateX(-50%)',
+          whiteSpace: 'nowrap',
           backgroundColor: 'rgba(15, 23, 42, 0.75)',
           backdropFilter: 'blur(4px)',
           color: '#fff',
@@ -138,18 +139,17 @@ export const ProductCard: React.FC<ProductCardProps> = ({
         {/* Action Buttons */}
         <div className="card-buttons-grid">
           <button
+            className="card-btn"
             onClick={() => onViewDetails(product)}
             style={{
               display: 'inline-flex',
               alignItems: 'center',
               justifyContent: 'center',
               gap: '0.4rem',
-              padding: '0.65rem 0.8rem',
               borderRadius: 'var(--radius-md)',
               border: '1px solid var(--slate-300)',
               backgroundColor: '#fff',
               color: 'var(--slate-700)',
-              fontSize: '0.85rem',
               fontWeight: 600,
               cursor: 'pointer',
               transition: 'all var(--transition-fast)'
@@ -159,18 +159,17 @@ export const ProductCard: React.FC<ProductCardProps> = ({
           </button>
 
           <button
+            className="card-btn"
             onClick={() => onAddToQuote(product)}
             style={{
               display: 'inline-flex',
               alignItems: 'center',
               justifyContent: 'center',
               gap: '0.4rem',
-              padding: '0.65rem 0.8rem',
               borderRadius: 'var(--radius-md)',
               border: 'none',
               backgroundColor: isInQuote ? 'var(--slate-800)' : 'var(--primary-600)',
               color: '#fff',
-              fontSize: '0.85rem',
               fontWeight: 600,
               cursor: 'pointer',
               transition: 'all var(--transition-fast)'
