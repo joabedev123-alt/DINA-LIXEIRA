@@ -1,9 +1,10 @@
 import React from 'react';
-import { ArrowRight, Recycle, CheckCircle2, MessageSquare } from 'lucide-react';
+import { ArrowRight, Recycle, CheckCircle2 } from 'lucide-react';
+import { WhatsAppIcon } from './WhatsAppIcon';
 
 export const Hero: React.FC = () => {
   return (
-    <section style={{
+    <section className="mobile-hero-section" style={{
       backgroundImage: 'linear-gradient(rgba(15, 23, 42, 0.35), rgba(15, 23, 42, 0.55)), url(/hero-principal.png)',
       backgroundSize: 'cover',
       backgroundPosition: 'center',
@@ -32,7 +33,7 @@ export const Hero: React.FC = () => {
             <Recycle size={16} /> Catálogo Oficial de Fábrica
           </div>
 
-          <h1 style={{ fontSize: '2.8rem', fontWeight: 800, lineHeight: 1.2, marginBottom: '1.2rem', color: '#ffffff' }}>
+          <h1 className="mobile-hero-title" style={{ fontSize: '2.8rem', fontWeight: 800, lineHeight: 1.2, marginBottom: '1.2rem', color: '#ffffff' }}>
             Soluções Profissionais em <span style={{ color: '#34d399' }}>Lixeiras & Coleta Seletiva</span>
           </h1>
 
@@ -57,7 +58,7 @@ export const Hero: React.FC = () => {
           </div>
 
           {/* CTA Buttons */}
-          <div style={{ display: 'flex', gap: '1rem', flexWrap: 'wrap', justifyContent: 'center' }}>
+          <div className="mobile-hero-buttons" style={{ display: 'flex', gap: '1rem', flexWrap: 'wrap', justifyContent: 'center' }}>
             <a
               href="https://wa.me/5511999999999?text=Olá!%20Gostaria%20de%20receber%20um%20orçamento%20do%20catálogo%20da%20Fort%20Lixeiras."
               target="_blank"
@@ -76,7 +77,7 @@ export const Hero: React.FC = () => {
                 fontSize: '0.95rem'
               }}
             >
-              <MessageSquare size={18} /> Orçamento Rápido via WhatsApp
+              <WhatsAppIcon size={18} /> Orçamento Rápido via WhatsApp
             </a>
 
             <a

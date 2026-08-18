@@ -147,3 +147,73 @@ h1, h2, h3, h4, h5, h6 {
 .whatsapp-pulse {
   animation: pulseGlow 2.5s infinite;
 }
+
+/* --- Mobile Optimizations --- */
+@media (max-width: 768px) {
+  .container {
+    padding: 0 1rem !important;
+  }
+
+  /* Header */
+  .mobile-header-top {
+    justify-content: center !important;
+    flex-wrap: wrap !important;
+  }
+  .mobile-header-main {
+    flex-direction: column !important;
+    gap: 1rem !important;
+  }
+  .mobile-header-search {
+    max-width: 100% !important;
+  }
+
+  /* Hero */
+  .mobile-hero-section {
+    padding: 3rem 0 !important;
+  }
+  .mobile-hero-title {
+    font-size: 2.2rem !important;
+  }
+  .mobile-hero-buttons {
+    flex-direction: column !important;
+    width: 100% !important;
+  }
+  .mobile-hero-buttons > a {
+    width: 100% !important;
+    justify-content: center !important;
+  }
+
+  /* Product Modal */
+  .mobile-modal-content {
+    max-width: 95vw !important;
+    max-height: 85vh !important;
+  }
+  .mobile-modal-grid {
+    grid-template-columns: 1fr !important;
+  }
+  .mobile-modal-image {
+    padding: 1rem !important;
+  }
+  .mobile-modal-details {
+    padding: 1rem !important;
+  }
+
+  /* Category Filter */
+  .mobile-category-scroll {
+    flex-wrap: nowrap !important;
+    overflow-x: auto !important;
+    padding-bottom: 0.8rem !important;
+    -webkit-overflow-scrolling: touch;
+  }
+  .mobile-category-scroll::-webkit-scrollbar {
+    height: 4px;
+  }
+
+  /* About Section */
+  .mobile-about-section {
+    margin: 2rem 0 !important;
+  }
+  .mobile-about-padding {
+    padding: 2rem 1rem !important;
+  }
+}

@@ -1,6 +1,7 @@
 import React from 'react';
 import { QuoteItem } from '../types';
-import { X, Trash2, MessageSquare, ShoppingBag, ArrowRight } from 'lucide-react';
+import { X, Trash2, ShoppingBag, ArrowRight } from 'lucide-react';
+import { WhatsAppIcon } from './WhatsAppIcon';
 
 interface QuoteDrawerProps {
   isOpen: boolean;
@@ -208,7 +209,7 @@ export const QuoteDrawer: React.FC<QuoteDrawerProps> = ({
                 textAlign: 'center'
               }}
             >
-              <MessageSquare size={20} /> Enviar Orçamento no WhatsApp <ArrowRight size={18} />
+              <WhatsAppIcon size={20} /> Enviar Orçamento no WhatsApp <ArrowRight size={18} />
             </a>
           </div>
         )}

@@ -37,7 +37,7 @@ export const CategoryFilter: React.FC<CategoryFilterProps> = ({
         </div>
       </div>
 
-      <div style={{
+      <div className="mobile-category-scroll" style={{
         display: 'flex',
         gap: '0.75rem',
         flexWrap: 'wrap',

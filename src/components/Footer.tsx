@@ -1,5 +1,6 @@
 import React from 'react';
-import { Phone, Mail, MapPin, Recycle, Shield } from 'lucide-react';
+import { Mail, MapPin, Recycle, Shield } from 'lucide-react';
+import { WhatsAppIcon } from './WhatsAppIcon';
 
 export const Footer: React.FC = () => {
   return (
@@ -40,8 +41,10 @@ export const Footer: React.FC = () => {
           </h4>
           <ul style={{ listStyle: 'none', fontSize: '0.85rem', display: 'flex', flexDirection: 'column', gap: '0.75rem' }}>
             <li style={{ display: 'flex', alignItems: 'center', gap: '0.5rem' }}>
-              <Phone size={16} color="var(--primary-500)" />
-              <span>(11) 99999-9999 / Vendas WhatsApp</span>
+              <WhatsAppIcon size={16} color="var(--primary-500)" />
+              <a href="https://wa.me/5511999999999?text=Olá,%20gostaria%20de%20solicitar%20um%20orçamento!" target="_blank" rel="noreferrer" style={{ color: 'inherit', textDecoration: 'none' }}>
+                (11) 99999-9999 / Vendas WhatsApp
+              </a>
             </li>
             <li style={{ display: 'flex', alignItems: 'center', gap: '0.5rem' }}>
               <Mail size={16} color="var(--primary-500)" />

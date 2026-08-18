@@ -1,6 +1,6 @@
 import React from 'react';
 import { Product } from '../types';
-import { Eye, Plus, Check, MessageSquare } from 'lucide-react';
+import { Eye, Plus, Check } from 'lucide-react';
 
 interface ProductCardProps {
   product: Product;

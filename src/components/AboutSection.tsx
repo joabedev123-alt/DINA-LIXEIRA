@@ -3,8 +3,8 @@ import { Award, Leaf, Truck, Users, CheckCircle } from 'lucide-react';
 
 export const AboutSection: React.FC = () => {
   return (
-    <section style={{ margin: '4rem 0', backgroundColor: '#fff', borderRadius: 'var(--radius-lg)', border: '1px solid var(--slate-200)', overflow: 'hidden', boxShadow: 'var(--shadow-sm)' }}>
-      <div className="container" style={{ padding: '3rem 2rem' }}>
+    <section className="mobile-about-section" style={{ margin: '4rem 0', backgroundColor: '#fff', borderRadius: 'var(--radius-lg)', border: '1px solid var(--slate-200)', overflow: 'hidden', boxShadow: 'var(--shadow-sm)' }}>
+      <div className="container mobile-about-padding" style={{ padding: '3rem 2rem' }}>
         
         <div style={{ textAlign: 'center', maxWidth: '640px', margin: '0 auto 3rem' }}>
           <span style={{ fontSize: '0.8rem', fontWeight: 700, color: 'var(--primary-600)', textTransform: 'uppercase', letterSpacing: '0.05em' }}>

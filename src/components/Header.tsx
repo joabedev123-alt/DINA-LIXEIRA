@@ -1,5 +1,6 @@
 import React from 'react';
-import { ShoppingBag, Search, Phone, ShieldCheck, Truck } from 'lucide-react';
+import { ShoppingBag, Search, ShieldCheck, Truck } from 'lucide-react';
+import { WhatsAppIcon } from './WhatsAppIcon';
 
 interface HeaderProps {
   searchTerm: string;
@@ -18,7 +19,7 @@ export const Header: React.FC<HeaderProps> = ({
     <header className="sticky top-0 z-40 glass-header">
       {/* Top Banner Bar */}
       <div style={{ backgroundColor: 'var(--slate-900)', color: 'var(--slate-300)', fontSize: '0.8rem', padding: '0.4rem 0' }}>
-        <div className="container" style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', flexWrap: 'wrap', gap: '0.5rem' }}>
+        <div className="container mobile-header-top" style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', flexWrap: 'wrap', gap: '0.5rem' }}>
           <div style={{ display: 'flex', gap: '1.5rem', alignItems: 'center' }}>
             <span style={{ display: 'inline-flex', alignItems: 'center', gap: '0.4rem' }}>
               <Truck size={14} color="var(--primary-500)" /> Entrega rápida para todo o Brasil
@@ -34,14 +35,14 @@ export const Header: React.FC<HeaderProps> = ({
               rel="noreferrer"
               style={{ color: 'var(--accent-whatsapp)', textDecoration: 'none', fontWeight: 600, display: 'inline-flex', alignItems: 'center', gap: '0.3rem' }}
             >
-              <Phone size={13} /> Atendimento Direto via WhatsApp
+              <WhatsAppIcon size={13} /> Atendimento Direto via WhatsApp
             </a>
           </div>
         </div>
       </div>
 
       {/* Main Header Content */}
-      <div className="container" style={{ padding: '1rem 1.5rem', display: 'flex', alignItems: 'center', justifyContent: 'space-between', gap: '1.5rem', flexWrap: 'wrap' }}>
+      <div className="container mobile-header-main" style={{ padding: '1rem 1.5rem', display: 'flex', alignItems: 'center', justifyContent: 'space-between', gap: '1.5rem', flexWrap: 'wrap' }}>
         
         {/* Brand Logo */}
         <div style={{ display: 'flex', alignItems: 'center', cursor: 'pointer' }} onClick={() => setSearchTerm('')}>
@@ -49,7 +50,7 @@ export const Header: React.FC<HeaderProps> = ({
         </div>
 
         {/* Search Bar */}
-        <div style={{ flex: 1, maxWidth: '500px', position: 'relative' }}>
+        <div className="mobile-header-search" style={{ flex: 1, maxWidth: '500px', position: 'relative' }}>
           <Search size={18} style={{ position: 'absolute', left: '1rem', top: '50%', transform: 'translateY(-50%)', color: 'var(--slate-400)' }} />
           <input
             type="text"

@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { Product } from '../types';
-import { X, Check, ShoppingBag, MessageSquare, Tag, Package, Layers, FileText, Maximize2 } from 'lucide-react';
+import { X, Check, ShoppingBag, Tag, Package, Layers, FileText, Maximize2 } from 'lucide-react';
+import { WhatsAppIcon } from './WhatsAppIcon';
 
 interface ProductModalProps {
   product: Product | null;
@@ -52,7 +53,7 @@ export const ProductModal: React.FC<ProductModalProps> = ({
     }} onClick={onClose}>
       
       <div
-        className="animate-fade-in"
+        className="animate-fade-in mobile-modal-content"
         onClick={(e) => e.stopPropagation()}
         style={{
           backgroundColor: '#fff',
@@ -142,10 +143,10 @@ export const ProductModal: React.FC<ProductModalProps> = ({
 
         {/* Tab 1: VISÃO GERAL */}
         {activeTab === 'details' && (
-          <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(320px, 1fr))' }}>
+          <div className="mobile-modal-grid" style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(320px, 1fr))' }}>
             
             {/* Left Product Image */}
-            <div style={{ backgroundColor: 'var(--slate-100)', padding: '2rem', display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center' }}>
+            <div className="mobile-modal-image" style={{ backgroundColor: 'var(--slate-100)', padding: '2rem', display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center' }}>
               <img
                 src={product.image}
                 alt={product.name}
@@ -178,7 +179,7 @@ export const ProductModal: React.FC<ProductModalProps> = ({
             </div>
 
             {/* Right Product Specifications */}
-            <div style={{ padding: '2rem', display: 'flex', flexDirection: 'column' }}>
+            <div className="mobile-modal-details" style={{ padding: '2rem', display: 'flex', flexDirection: 'column' }}>
               
               <div style={{ display: 'flex', alignItems: 'center', gap: '0.5rem', marginBottom: '0.4rem' }}>
                 <span className="badge badge-primary">{product.category}</span>
@@ -309,7 +310,7 @@ export const ProductModal: React.FC<ProductModalProps> = ({
                     textAlign: 'center'
                   }}
                 >
-                  <MessageSquare size={18} /> Cotar via WhatsApp
+                  <WhatsAppIcon size={18} /> Cotar via WhatsApp
                 </a>
               </div>
 
