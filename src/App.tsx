@@ -151,7 +151,7 @@ export const App: React.FC = () => {
 
         {/* Products Grid */}
         {filteredProducts.length > 0 ? (
-          <div style={{
+          <div className="mobile-grid-1" style={{
             display: 'grid',
             gridTemplateColumns: 'repeat(auto-fill, minmax(280px, 1fr))',
             gap: '1.75rem'
