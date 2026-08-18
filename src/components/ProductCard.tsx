@@ -64,19 +64,23 @@ export const ProductCard: React.FC<ProductCardProps> = ({
 
       {/* Image Container */}
       <div style={{
-        height: '220px',
+        width: '100%',
         backgroundColor: '#f1f5f9',
         overflow: 'hidden',
         position: 'relative',
-        cursor: 'pointer'
+        cursor: 'pointer',
+        display: 'flex',
+        alignItems: 'center',
+        justifyContent: 'center'
       }} onClick={() => onViewDetails(product)}>
         <img
           src={product.catalogImage || product.image}
           alt={product.name}
           style={{
             width: '100%',
-            height: '100%',
-            objectFit: 'cover',
+            height: 'auto',
+            objectFit: 'contain',
+            display: 'block',
             transition: 'transform 0.4s ease'
           }}
           onMouseOver={(e) => (e.target as HTMLElement).style.transform = 'scale(1.06)'}

@@ -40,9 +40,8 @@ export const CategoryFilter: React.FC<CategoryFilterProps> = ({
       <div style={{
         display: 'flex',
         gap: '0.75rem',
-        overflowX: 'auto',
-        paddingBottom: '0.75rem',
-        scrollbarWidth: 'none'
+        flexWrap: 'wrap',
+        paddingBottom: '0.75rem'
       }}>
         {categories.map((cat) => {
           const isSelected = selectedCategory === cat.id;

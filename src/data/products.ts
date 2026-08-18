@@ -31,8 +31,8 @@ export const products: Product[] = [
     material: 'Polipropileno (PP)',
     dimensions: '240mm (Diâmetro) x 420mm (Altura)',
     colors: ['Amarelo', 'Azul', 'Preto', 'Branco', 'Marrom', 'Vermelho'],
-    image: '/ChatGPT Image 28 de jul. de 2026, 14_38_26.png',
-    catalogImage: '/ChatGPT Image 28 de jul. de 2026, 14_38_26.png',
+    image: '/basculante/15L com tampa LP.png',
+    catalogImage: '/basculante/15L com tampa LP.png',
     featured: false
   },
   {
@@ -46,8 +46,8 @@ export const products: Product[] = [
     material: 'Polipropileno (PP)',
     dimensions: '240mm (Diâmetro) x 415mm (Altura)',
     colors: ['Verde', 'Amarelo', 'Azul', 'Preto', 'Branco', 'Marrom', 'Vermelho'],
-    image: '/ChatGPT Image 28 de jul. de 2026, 15_42_34.png',
-    catalogImage: '/ChatGPT Image 28 de jul. de 2026, 14_38_26.png',
+    image: '/basculante/15L sem tampa LP.png',
+    catalogImage: '/basculante/15L sem tampa LP.png',
     featured: false
   },
   {
@@ -61,8 +61,8 @@ export const products: Product[] = [
     material: 'Polipropileno (PP)',
     dimensions: '240mm (Diâmetro) x 645mm (Altura)',
     colors: ['Verde', 'Amarelo', 'Azul', 'Preto', 'Branco', 'Marrom', 'Vermelho'],
-    image: '/ChatGPT Image 28 de jul. de 2026, 15_18_19.png',
-    catalogImage: '/ChatGPT Image 28 de jul. de 2026, 14_38_26.png',
+    image: '/basculante/23L sem tampa JSN.png',
+    catalogImage: '/basculante/23L sem tampa JSN.png',
     featured: false
   },
   {
@@ -76,8 +76,8 @@ export const products: Product[] = [
     material: 'Polipropileno (PP)',
     dimensions: '240mm (Diâmetro) x 650mm (Altura)',
     colors: ['Verde', 'Amarelo', 'Azul', 'Preto', 'Branco', 'Marrom', 'Vermelho'],
-    image: '/ChatGPT Image 28 de jul. de 2026, 15_09_06.png',
-    catalogImage: '/ChatGPT Image 28 de jul. de 2026, 14_38_26.png',
+    image: '/basculante/23L com tampa JSN.png',
+    catalogImage: '/basculante/23L com tampa JSN.png',
     featured: false
   },
   {
@@ -91,8 +91,8 @@ export const products: Product[] = [
     material: 'Polipropileno (PP)',
     dimensions: '298mm (L) x 298mm (P) x 570mm (A)',
     colors: ['Preto', 'Branco', 'Cinza', 'Marrom', 'Vermelho'],
-    image: '/ChatGPT Image 28 de jul. de 2026, 14_55_00.png',
-    catalogImage: '/ChatGPT Image 28 de jul. de 2026, 14_38_26.png',
+    image: '/basculante/25L com tampa JSN.png',
+    catalogImage: '/basculante/25L com tampa JSN.png',
     featured: false
   },
   {
@@ -106,8 +106,8 @@ export const products: Product[] = [
     material: 'Polipropileno (PP)',
     dimensions: '320mm (Diâmetro) x 805mm (Altura)',
     colors: ['Verde', 'Amarelo', 'Azul', 'Preto', 'Branco', 'Marrom', 'Vermelho'],
-    image: '/ChatGPT Image 28 de jul. de 2026, 15_12_34.png',
-    catalogImage: '/ChatGPT Image 28 de jul. de 2026, 14_38_26.png',
+    image: '/basculante/50L com tampa JSN.png',
+    catalogImage: '/basculante/50L com tampa JSN.png',
     featured: true
   },
   {
@@ -121,8 +121,8 @@ export const products: Product[] = [
     material: 'Polipropileno (PP)',
     dimensions: '370mm (L) x 370mm (P) x 720mm (A)',
     colors: ['Verde', 'Amarelo', 'Azul', 'Preto', 'Branco', 'Marrom', 'Vermelho'],
-    image: '/ChatGPT Image 28 de jul. de 2026, 15_37_15.png',
-    catalogImage: '/ChatGPT Image 28 de jul. de 2026, 14_38_26.png',
+    image: '/basculante/60L com tampa JSN.png',
+    catalogImage: '/basculante/60L com tampa JSN.png',
     featured: true
   },
   {
@@ -136,8 +136,8 @@ export const products: Product[] = [
     material: 'Polipropileno (PP)',
     dimensions: '380mm (L) x 380mm (P) x 720mm (A)',
     colors: ['Verde', 'Amarelo', 'Azul', 'Preto', 'Branco', 'Marrom'],
-    image: '/ChatGPT Image 28 de jul. de 2026, 14_38_26.png',
-    catalogImage: '/ChatGPT Image 28 de jul. de 2026, 14_38_26.png',
+    image: '/basculante/60L com tampa LP.png',
+    catalogImage: '/basculante/60L com tampa LP.png',
     featured: false
   },
   {
@@ -151,8 +151,8 @@ export const products: Product[] = [
     material: 'Polietileno de Alta Densidade',
     dimensions: '510mm (Diâmetro) x 590mm (Profundidade) x 335mm (A)',
     colors: ['Verde', 'Amarelo', 'Azul', 'Preto', 'Branco', 'Marrom', 'Vermelho'],
-    image: '/ChatGPT Image 28 de jul. de 2026, 14_46_28.png',
-    catalogImage: '/ChatGPT Image 28 de jul. de 2026, 14_38_26.png',
+    image: '/basculante/Balde 60L com tampa.png',
+    catalogImage: '/basculante/Balde 60L com tampa.png',
     featured: false
   },
   {
@@ -166,8 +166,8 @@ export const products: Product[] = [
     material: 'Polipropileno Injetado',
     dimensions: '450mm (L) x 540mm (P) x 810mm (A)',
     colors: ['Verde', 'Amarelo', 'Azul', 'Preto', 'Branco', 'Marrom', 'Vermelho'],
-    image: '/ChatGPT Image 28 de jul. de 2026, 15_12_34.png',
-    catalogImage: '/ChatGPT Image 28 de jul. de 2026, 14_38_26.png',
+    image: '/basculante/100L com tampa JSN.png',
+    catalogImage: '/basculante/100L com tampa JSN.png',
     featured: true
   },
   {
@@ -181,8 +181,8 @@ export const products: Product[] = [
     material: 'Polipropileno (PP)',
     dimensions: '400mm (L) x 400mm (P) x 1010mm (A)',
     colors: ['Verde', 'Amarelo', 'Azul', 'Marrom', 'Vermelho'],
-    image: '/ChatGPT Image 28 de jul. de 2026, 15_38_14.png',
-    catalogImage: '/ChatGPT Image 28 de jul. de 2026, 14_38_26.png',
+    image: '/basculante/100L com tampa UBL.png',
+    catalogImage: '/basculante/100L com tampa UBL.png',
     featured: false
   },
   {
@@ -196,8 +196,8 @@ export const products: Product[] = [
     material: 'Polietileno de Alta Densidade',
     dimensions: '590mm (Diâmetro) x 515mm (P) x 730mm (A)',
     colors: ['Verde', 'Amarelo', 'Azul', 'Preto', 'Branco', 'Cinza'],
-    image: '/ChatGPT Image 28 de jul. de 2026, 15_00_32.png',
-    catalogImage: '/ChatGPT Image 28 de jul. de 2026, 14_38_26.png',
+    image: '/basculante/Balde 100L com tampa.png',
+    catalogImage: '/basculante/Balde 100L com tampa.png',
     featured: false
   },
 
@@ -215,8 +215,8 @@ export const products: Product[] = [
     material: 'Polipropileno (PP)',
     dimensions: '323mm (L) x 281mm (P) x 402mm (A)',
     colors: ['Verde', 'Amarelo', 'Azul', 'Preto', 'Branco', 'Marrom', 'Vermelho'],
-    image: '/ChatGPT Image 28 de jul. de 2026, 14_55_00.png',
-    catalogImage: '/ChatGPT Image 28 de jul. de 2026, 14_55_00.png',
+    image: '/pedal/15L com pedal JSN.png',
+    catalogImage: '/pedal/15L com pedal JSN.png',
     featured: true
   },
   {
@@ -230,8 +230,8 @@ export const products: Product[] = [
     material: 'Polipropileno (PP)',
     dimensions: '280mm (L) x 370mm (P) x 440mm (A)',
     colors: ['Verde', 'Amarelo', 'Azul', 'Marrom', 'Cinza'],
-    image: '/ChatGPT Image 28 de jul. de 2026, 14_49_52.png',
-    catalogImage: '/ChatGPT Image 28 de jul. de 2026, 14_55_00.png',
+    image: '/pedal/15L com pedal LP.png',
+    catalogImage: '/pedal/15L com pedal LP.png',
     featured: false
   },
   {
@@ -245,8 +245,8 @@ export const products: Product[] = [
     material: 'Polipropileno (PP)',
     dimensions: '335mm (L) x 310mm (P) x 450mm (A)',
     colors: ['Verde', 'Amarelo', 'Azul', 'Preto', 'Branco', 'Marrom', 'Vermelho'],
-    image: '/ChatGPT Image 28 de jul. de 2026, 14_55_00.png',
-    catalogImage: '/ChatGPT Image 28 de jul. de 2026, 14_55_00.png',
+    image: '/pedal/25L com pedal JSN.png',
+    catalogImage: '/pedal/25L com pedal JSN.png',
     featured: false
   },
   {
@@ -260,8 +260,8 @@ export const products: Product[] = [
     material: 'Polipropileno (PP)',
     dimensions: '330mm (L) x 370mm (P) x 600mm (A)',
     colors: ['Verde', 'Amarelo', 'Azul', 'Preto', 'Branco', 'Marrom', 'Vermelho'],
-    image: '/ChatGPT Image 28 de jul. de 2026, 15_37_15.png',
-    catalogImage: '/ChatGPT Image 28 de jul. de 2026, 14_55_00.png',
+    image: '/pedal/25L com pedal LP.png',
+    catalogImage: '/pedal/25L com pedal LP.png',
     featured: false
   },
   {
@@ -275,8 +275,8 @@ export const products: Product[] = [
     material: 'Polipropileno (PP)',
     dimensions: '240mm (Diâmetro) x 645mm (Altura)',
     colors: ['Verde', 'Amarelo', 'Azul', 'Preto', 'Branco', 'Marrom', 'Vermelho'],
-    image: '/ChatGPT Image 28 de jul. de 2026, 14_49_52.png',
-    catalogImage: '/ChatGPT Image 28 de jul. de 2026, 14_55_00.png',
+    image: '/pedal/30L com pedal JSN.png',
+    catalogImage: '/pedal/30L com pedal JSN.png',
     featured: false
   },
   {
@@ -290,8 +290,8 @@ export const products: Product[] = [
     material: 'Polipropileno (PP)',
     dimensions: '320mm (L) x 320mm (P) x 805mm (A)',
     colors: ['Verde', 'Amarelo', 'Azul', 'Preto', 'Branco', 'Marrom'],
-    image: '/ChatGPT Image 28 de jul. de 2026, 15_37_15.png',
-    catalogImage: '/ChatGPT Image 28 de jul. de 2026, 14_55_00.png',
+    image: '/pedal/50L com pedal LP.png',
+    catalogImage: '/pedal/50L com pedal LP.png',
     featured: false
   },
   {
@@ -305,8 +305,8 @@ export const products: Product[] = [
     material: 'Polipropileno Injetado',
     dimensions: '480mm (L) x 560mm (P) x 710mm (A)',
     colors: ['Verde', 'Amarelo', 'Azul', 'Preto', 'Branco', 'Marrom'],
-    image: '/ChatGPT Image 28 de jul. de 2026, 14_55_00.png',
-    catalogImage: '/ChatGPT Image 28 de jul. de 2026, 14_55_00.png',
+    image: '/pedal/60L com pedal JSN.png',
+    catalogImage: '/pedal/60L com pedal JSN.png',
     featured: true
   },
   {
@@ -320,8 +320,8 @@ export const products: Product[] = [
     material: 'Polipropileno de Alto Impacto',
     dimensions: '425mm (L) x 595mm (P) x 925mm (A)',
     colors: ['Verde', 'Amarelo', 'Azul', 'Preto', 'Branco', 'Marrom'],
-    image: '/ChatGPT Image 28 de jul. de 2026, 15_37_15.png',
-    catalogImage: '/ChatGPT Image 28 de jul. de 2026, 14_55_00.png',
+    image: '/pedal/100L com pedal.png',
+    catalogImage: '/pedal/100L com pedal.png',
     featured: true
   },
 
@@ -339,8 +339,8 @@ export const products: Product[] = [
     material: 'PP + Suporte em Aço Carbono',
     dimensions: '430mm (L) x 930mm (P) x 810mm (A)',
     colors: ['Verde', 'Amarelo', 'Azul', 'Preto', 'Branco', 'Marrom', 'Vermelho'],
-    image: '/ChatGPT Image 28 de jul. de 2026, 14_38_26.png',
-    catalogImage: '/ChatGPT Image 28 de jul. de 2026, 15_12_34.png',
+    image: '/larplast/60L com 2 cestos.png',
+    catalogImage: '/larplast/60L com 2 cestos.png',
     featured: false
   },
   {
@@ -354,8 +354,8 @@ export const products: Product[] = [
     material: 'PP + Suporte em Aço Carbono',
     dimensions: '430mm (L) x 930mm (P) x 1200mm (A)',
     colors: ['Verde', 'Amarelo', 'Azul', 'Preto', 'Branco', 'Marrom', 'Vermelho'],
-    image: '/ChatGPT Image 28 de jul. de 2026, 14_38_26.png',
-    catalogImage: '/ChatGPT Image 28 de jul. de 2026, 15_12_34.png',
+    image: '/larplast/60L com 3 cestos.png',
+    catalogImage: '/larplast/60L com 3 cestos.png',
     featured: false
   },
   {
@@ -369,8 +369,8 @@ export const products: Product[] = [
     material: 'PP + Suporte em Aço Carbono',
     dimensions: '430mm (L) x 930mm (P) x 1610mm (A)',
     colors: ['Verde', 'Amarelo', 'Azul', 'Preto', 'Branco', 'Marrom', 'Vermelho'],
-    image: '/ChatGPT Image 28 de jul. de 2026, 14_38_26.png',
-    catalogImage: '/ChatGPT Image 28 de jul. de 2026, 15_12_34.png',
+    image: '/larplast/60L com 4 cestos.png',
+    catalogImage: '/larplast/60L com 4 cestos.png',
     featured: true
   },
   {
@@ -384,8 +384,8 @@ export const products: Product[] = [
     material: 'PP + Suporte em Aço Carbono',
     dimensions: '430mm (L) x 930mm (P) x 2100mm (A)',
     colors: ['Verde', 'Amarelo', 'Azul', 'Preto', 'Branco', 'Marrom', 'Vermelho'],
-    image: '/ChatGPT Image 28 de jul. de 2026, 15_12_34.png',
-    catalogImage: '/ChatGPT Image 28 de jul. de 2026, 15_12_34.png',
+    image: '/larplast/60L com 5 cestos.png',
+    catalogImage: '/larplast/60L com 5 cestos.png',
     featured: false
   },
   {
@@ -399,14 +399,44 @@ export const products: Product[] = [
     material: 'PP + Suporte em Aço Carbono',
     dimensions: '430mm (L) x 930mm (P) x 2420mm (A)',
     colors: ['Verde', 'Amarelo', 'Azul', 'Preto', 'Branco', 'Marrom', 'Vermelho'],
-    image: '/ChatGPT Image 28 de jul. de 2026, 15_12_34.png',
-    catalogImage: '/ChatGPT Image 28 de jul. de 2026, 15_12_34.png',
+    image: '/larplast/60L com 6 cestos.png',
+    catalogImage: '/larplast/60L com 6 cestos.png',
     featured: false
   },
 
   // ==========================================
   // PÁGINA 4 & 5: COLETA SELETIVA 60L E 100L JSN
   // ==========================================
+  {
+    id: 'cs-jsn-60l-2c',
+    code: 'FL-CS-JSN60-2C',
+    name: 'Coleta Seletiva 60L com 2 Cestos JSN',
+    category: 'Coleta Seletiva 60L JSN',
+    categoryId: 'coleta-jsn-60l',
+    description: 'Estação 2 vias 60L com suporte tubular JSN.',
+    capacity: '2 Cestos de 60L (120L total)',
+    material: 'PP JSN + Suporte em Aço',
+    dimensions: '740mm (L) x 345mm (P) x 1050mm (A)',
+    colors: ['Verde', 'Amarelo', 'Azul', 'Preto', 'Branco', 'Marrom', 'Vermelho'],
+    image: '/jsn60l/60L com 2 cestos.png',
+    catalogImage: '/jsn60l/60L com 2 cestos.png',
+    featured: false
+  },
+  {
+    id: 'cs-jsn-60l-3c',
+    code: 'FL-CS-JSN60-3C',
+    name: 'Coleta Seletiva 60L com 3 Cestos JSN',
+    category: 'Coleta Seletiva 60L JSN',
+    categoryId: 'coleta-jsn-60l',
+    description: 'Estação 3 vias 60L com suporte tubular JSN.',
+    capacity: '3 Cestos de 60L (180L total)',
+    material: 'PP JSN + Suporte em Aço',
+    dimensions: '1110mm (L) x 345mm (P) x 1050mm (A)',
+    colors: ['Verde', 'Amarelo', 'Azul', 'Preto', 'Branco', 'Marrom', 'Vermelho'],
+    image: '/jsn60l/60L com 3 cestos.png',
+    catalogImage: '/jsn60l/60L com 3 cestos.png',
+    featured: false
+  },
   {
     id: 'cs-jsn-60l-4c',
     code: 'FL-CS-JSN60-4C',
@@ -418,9 +448,69 @@ export const products: Product[] = [
     material: 'PP JSN + Suporte em Aço',
     dimensions: '1480mm (L) x 345mm (P) x 1050mm (A)',
     colors: ['Verde', 'Amarelo', 'Azul', 'Preto', 'Branco', 'Marrom', 'Vermelho'],
-    image: '/ChatGPT Image 28 de jul. de 2026, 15_12_34.png',
-    catalogImage: '/ChatGPT Image 28 de jul. de 2026, 15_12_34.png',
+    image: '/jsn60l/60L com 4 cestos.png',
+    catalogImage: '/jsn60l/60L com 4 cestos.png',
     featured: true
+  },
+  {
+    id: 'cs-jsn-60l-5c',
+    code: 'FL-CS-JSN60-5C',
+    name: 'Coleta Seletiva 60L com 5 Cestos JSN',
+    category: 'Coleta Seletiva 60L JSN',
+    categoryId: 'coleta-jsn-60l',
+    description: 'Estação 5 vias 60L com suporte tubular JSN.',
+    capacity: '5 Cestos de 60L (300L total)',
+    material: 'PP JSN + Suporte em Aço',
+    dimensions: '1850mm (L) x 345mm (P) x 1050mm (A)',
+    colors: ['Verde', 'Amarelo', 'Azul', 'Preto', 'Branco', 'Marrom', 'Vermelho'],
+    image: '/jsn60l/60L com 5 cestos.png',
+    catalogImage: '/jsn60l/60L com 5 cestos.png',
+    featured: false
+  },
+  {
+    id: 'cs-jsn-60l-6c',
+    code: 'FL-CS-JSN60-6C',
+    name: 'Coleta Seletiva 60L com 6 Cestos JSN',
+    category: 'Coleta Seletiva 60L JSN',
+    categoryId: 'coleta-jsn-60l',
+    description: 'Estação 6 vias 60L com suporte tubular JSN.',
+    capacity: '6 Cestos de 60L (360L total)',
+    material: 'PP JSN + Suporte em Aço',
+    dimensions: '2220mm (L) x 345mm (P) x 1050mm (A)',
+    colors: ['Verde', 'Amarelo', 'Azul', 'Preto', 'Branco', 'Marrom', 'Vermelho'],
+    image: '/jsn60l/60L com 6 cestos.png',
+    catalogImage: '/jsn60l/60L com 6 cestos.png',
+    featured: false
+  },
+  {
+    id: 'cs-jsn-100l-2c',
+    code: 'FL-CS-JSN100-2C',
+    name: 'Coleta Seletiva 100L com 2 Cestos JSN',
+    category: 'Coleta Seletiva 100L JSN',
+    categoryId: 'coleta-jsn-100l',
+    description: 'Estação 2 vias 100L por cesto com suporte JSN.',
+    capacity: '2 Cestos de 100L (200L total)',
+    material: 'PP JSN + Suporte em Aço',
+    dimensions: '911mm (L) x 425mm (P) x 1070mm (A)',
+    colors: ['Verde', 'Amarelo', 'Azul', 'Preto', 'Branco', 'Marrom', 'Vermelho'],
+    image: '/jsn100l/100L com 2 cestos.png',
+    catalogImage: '/jsn100l/100L com 2 cestos.png',
+    featured: false
+  },
+  {
+    id: 'cs-jsn-100l-3c',
+    code: 'FL-CS-JSN100-3C',
+    name: 'Coleta Seletiva 100L com 3 Cestos JSN',
+    category: 'Coleta Seletiva 100L JSN',
+    categoryId: 'coleta-jsn-100l',
+    description: 'Estação 3 vias 100L por cesto com suporte JSN.',
+    capacity: '3 Cestos de 100L (300L total)',
+    material: 'PP JSN + Suporte em Aço',
+    dimensions: '1366mm (L) x 425mm (P) x 1070mm (A)',
+    colors: ['Verde', 'Amarelo', 'Azul', 'Preto', 'Branco', 'Marrom', 'Vermelho'],
+    image: '/jsn100l/100L com 3 cestos.png',
+    catalogImage: '/jsn100l/100L com 3 cestos.png',
+    featured: false
   },
   {
     id: 'cs-jsn-100l-4c',
@@ -433,14 +523,74 @@ export const products: Product[] = [
     material: 'PP JSN + Suporte em Aço',
     dimensions: '1822mm (L) x 425mm (P) x 1070mm (A)',
     colors: ['Verde', 'Amarelo', 'Azul', 'Preto', 'Branco', 'Marrom', 'Vermelho'],
-    image: '/ChatGPT Image 28 de jul. de 2026, 15_12_34.png',
-    catalogImage: '/ChatGPT Image 28 de jul. de 2026, 15_12_34.png',
+    image: '/jsn100l/100L com 4 cestos.png',
+    catalogImage: '/jsn100l/100L com 4 cestos.png',
     featured: true
+  },
+  {
+    id: 'cs-jsn-100l-5c',
+    code: 'FL-CS-JSN100-5C',
+    name: 'Coleta Seletiva 100L com 5 Cestos JSN',
+    category: 'Coleta Seletiva 100L JSN',
+    categoryId: 'coleta-jsn-100l',
+    description: 'Estação 5 vias 100L por cesto com suporte JSN.',
+    capacity: '5 Cestos de 100L (500L total)',
+    material: 'PP JSN + Suporte em Aço',
+    dimensions: '2277mm (L) x 425mm (P) x 1070mm (A)',
+    colors: ['Verde', 'Amarelo', 'Azul', 'Preto', 'Branco', 'Marrom', 'Vermelho'],
+    image: '/jsn100l/100L com 5 cestos.png',
+    catalogImage: '/jsn100l/100L com 5 cestos.png',
+    featured: false
+  },
+  {
+    id: 'cs-jsn-100l-6c',
+    code: 'FL-CS-JSN100-6C',
+    name: 'Coleta Seletiva 100L com 6 Cestos JSN',
+    category: 'Coleta Seletiva 100L JSN',
+    categoryId: 'coleta-jsn-100l',
+    description: 'Estação 6 vias 100L por cesto com suporte JSN.',
+    capacity: '6 Cestos de 100L (600L total)',
+    material: 'PP JSN + Suporte em Aço',
+    dimensions: '2733mm (L) x 425mm (P) x 1070mm (A)',
+    colors: ['Verde', 'Amarelo', 'Azul', 'Preto', 'Branco', 'Marrom', 'Vermelho'],
+    image: '/jsn100l/100L com 6 cestos.png',
+    catalogImage: '/jsn100l/100L com 6 cestos.png',
+    featured: false
   },
 
   // ==========================================
   // PÁGINA 6: PAPELEIRAS COLETA SELETIVA 50L COM SUPORTE
   // ==========================================
+  {
+    id: 'pap-50l-2c',
+    code: 'FL-PAP-50L-2C',
+    name: 'Papeleira Coleta Seletiva 50L com 2 Cestos',
+    category: 'Papeleiras Coleta Seletiva 50L',
+    categoryId: 'papeleiras-50l',
+    description: 'Estação 2 papeleiras 50L para separação padrão CONAMA.',
+    capacity: '2 Cestos de 50L (100L total)',
+    material: 'Polipropileno + Suporte em Aço',
+    dimensions: '430mm (L) x 600mm (P) x 1820mm (A)',
+    colors: ['Verde', 'Amarelo', 'Azul', 'Preto', 'Branco', 'Marrom', 'Vermelho'],
+    image: '/papeleiras50l/50L com 2 cestos.png',
+    catalogImage: '/papeleiras50l/50L com 2 cestos.png',
+    featured: false
+  },
+  {
+    id: 'pap-50l-3c',
+    code: 'FL-PAP-50L-3C',
+    name: 'Papeleira Coleta Seletiva 50L com 3 Cestos',
+    category: 'Papeleiras Coleta Seletiva 50L',
+    categoryId: 'papeleiras-50l',
+    description: 'Estação 3 papeleiras 50L para separação padrão CONAMA.',
+    capacity: '3 Cestos de 50L (150L total)',
+    material: 'Polipropileno + Suporte em Aço',
+    dimensions: '430mm (L) x 900mm (P) x 1820mm (A)',
+    colors: ['Verde', 'Amarelo', 'Azul', 'Preto', 'Branco', 'Marrom', 'Vermelho'],
+    image: '/papeleiras50l/50L com 3 cestos.png',
+    catalogImage: '/papeleiras50l/50L com 3 cestos.png',
+    featured: false
+  },
   {
     id: 'pap-50l-4c',
     code: 'FL-PAP-50L-4C',
@@ -452,33 +602,123 @@ export const products: Product[] = [
     material: 'Polipropileno + Suporte em Aço',
     dimensions: '430mm (L) x 1190mm (P) x 1820mm (A)',
     colors: ['Verde', 'Amarelo', 'Azul', 'Preto', 'Branco', 'Marrom', 'Vermelho'],
-    image: '/ChatGPT Image 28 de jul. de 2026, 15_09_06.png',
-    catalogImage: '/ChatGPT Image 28 de jul. de 2026, 15_09_06.png',
+    image: '/papeleiras50l/50L com 4 cestos.png',
+    catalogImage: '/papeleiras50l/50L com 4 cestos.png',
     featured: true
+  },
+  {
+    id: 'pap-50l-5c',
+    code: 'FL-PAP-50L-5C',
+    name: 'Papeleira Coleta Seletiva 50L com 5 Cestos',
+    category: 'Papeleiras Coleta Seletiva 50L',
+    categoryId: 'papeleiras-50l',
+    description: 'Estação 5 papeleiras 50L para separação padrão CONAMA.',
+    capacity: '5 Cestos de 50L (250L total)',
+    material: 'Polipropileno + Suporte em Aço',
+    dimensions: '430mm (L) x 1500mm (P) x 1820mm (A)',
+    colors: ['Verde', 'Amarelo', 'Azul', 'Preto', 'Branco', 'Marrom', 'Vermelho'],
+    image: '/papeleiras50l/50L com 5 cestos.png',
+    catalogImage: '/papeleiras50l/50L com 5 cestos.png',
+    featured: false
+  },
+  {
+    id: 'pap-50l-6c',
+    code: 'FL-PAP-50L-6C',
+    name: 'Papeleira Coleta Seletiva 50L com 6 Cestos',
+    category: 'Papeleiras Coleta Seletiva 50L',
+    categoryId: 'papeleiras-50l',
+    description: 'Estação 6 papeleiras 50L para separação padrão CONAMA.',
+    capacity: '6 Cestos de 50L (300L total)',
+    material: 'Polipropileno + Suporte em Aço',
+    dimensions: '430mm (L) x 1800mm (P) x 1820mm (A)',
+    colors: ['Verde', 'Amarelo', 'Azul', 'Preto', 'Branco', 'Marrom', 'Vermelho'],
+    image: '/papeleiras50l/50L com 6 cestos.png',
+    catalogImage: '/papeleiras50l/50L com 6 cestos.png',
+    featured: false
   },
 
   // ==========================================
   // PÁGINA 7: LIXEIRAS MIX PLÁSTICO E INOX
   // ==========================================
   {
-    id: 'mix-60l-3c',
-    code: 'FL-MIX-60L-3C',
-    name: 'Lixeira Mix Inox 60L com 3 Cestos Internos',
+    id: 'mix-inox-2c',
+    code: 'FL-MIX-INOX-2C',
+    name: 'Lixeira Mix Inox com 2 Cestos Internos',
+    category: 'Mix Plástico e Inox',
+    categoryId: 'mix-inox',
+    description: 'Lixeira circular em aço inox com 2 divisórias internas.',
+    capacity: '26 Litros',
+    material: 'Aço Inox com Cestos em PP',
+    dimensions: '315mm (Diâmetro) x 400mm (Altura)',
+    colors: ['Amarelo', 'Azul', 'Preto', 'Vermelho', 'Verde', 'Marrom'],
+    image: '/mix/Mix com 2 cestos inox.png',
+    catalogImage: '/mix/Mix com 2 cestos inox.png',
+    featured: false
+  },
+  {
+    id: 'mix-plastico-2c',
+    code: 'FL-MIX-PLAST-2C',
+    name: 'Lixeira Mix Plástico com 2 Cestos Internos',
+    category: 'Mix Plástico e Inox',
+    categoryId: 'mix-inox',
+    description: 'Lixeira circular em plástico com 2 divisórias internas.',
+    capacity: '26 Litros',
+    material: 'Polipropileno',
+    dimensions: '315mm (Diâmetro) x 400mm (Altura)',
+    colors: ['Amarelo', 'Azul', 'Preto', 'Vermelho', 'Verde', 'Marrom'],
+    image: '/mix/Mix com 2 cestos plastico.png',
+    catalogImage: '/mix/Mix com 2 cestos plastico.png',
+    featured: false
+  },
+  {
+    id: 'mix-inox-3c',
+    code: 'FL-MIX-INOX-3C',
+    name: 'Lixeira Mix Inox com 3 Cestos Internos',
     category: 'Mix Plástico e Inox',
     categoryId: 'mix-inox',
     description: 'Lixeira circular em aço inox com 3 divisórias internas coloridas.',
     capacity: '26 Litros',
     material: 'Aço Inox com Cestos em PP',
     dimensions: '315mm (Diâmetro) x 400mm (Altura)',
-    colors: ['Amarelo', 'Azul', 'Preto', 'Vermelho'],
-    image: '/ChatGPT Image 28 de jul. de 2026, 15_18_19.png',
-    catalogImage: '/ChatGPT Image 28 de jul. de 2026, 15_18_19.png',
+    colors: ['Amarelo', 'Azul', 'Preto', 'Vermelho', 'Verde', 'Marrom'],
+    image: '/mix/Mix com 3 cestos inox.png',
+    catalogImage: '/mix/Mix com 3 cestos inox.png',
     featured: true
+  },
+  {
+    id: 'mix-plastico-3c',
+    code: 'FL-MIX-PLAST-3C',
+    name: 'Lixeira Mix Plástico com 3 Cestos Internos',
+    category: 'Mix Plástico e Inox',
+    categoryId: 'mix-inox',
+    description: 'Lixeira circular em plástico com 3 divisórias internas coloridas.',
+    capacity: '26 Litros',
+    material: 'Polipropileno',
+    dimensions: '315mm (Diâmetro) x 400mm (Altura)',
+    colors: ['Amarelo', 'Azul', 'Preto', 'Vermelho', 'Verde', 'Marrom'],
+    image: '/mix/Mix com 3 cestos plastico.png',
+    catalogImage: '/mix/Mix com 3 cestos plastico.png',
+    featured: false
   },
 
   // ==========================================
   // PÁGINA 8 & 9: CARROS COLETORES & CONTAINERS
   // ==========================================
+  {
+    id: 'carro-120l-pedal',
+    code: 'FL-CAR-120PED',
+    name: 'Carro Coletor 120L com Pedal',
+    category: 'Carros Coletores com Pedal',
+    categoryId: 'carros-coletores',
+    description: 'Carro coletor de 120 Litros com rodas maciças e pedal.',
+    capacity: '120 Litros',
+    material: 'PEAD Virgem com proteção UV',
+    dimensions: '480mm (L) x 550mm (P) x 940mm (A)',
+    colors: ['Verde', 'Amarelo', 'Azul', 'Marrom', 'Preto', 'Laranja', 'Branco', 'Cinza', 'Vermelho'],
+    image: '/carros/Carro coletor 120L com pedal.png',
+    catalogImage: '/carros/Carro coletor 120L com pedal.png',
+    featured: false
+  },
   {
     id: 'carro-240l-pedal',
     code: 'FL-CAR-240PED',
@@ -490,9 +730,39 @@ export const products: Product[] = [
     material: 'PEAD Virgem com proteção UV',
     dimensions: '730mm (L) x 1080mm (P) x 580mm (A)',
     colors: ['Verde', 'Amarelo', 'Azul', 'Marrom', 'Preto', 'Laranja', 'Branco', 'Cinza', 'Vermelho'],
-    image: '/ChatGPT Image 28 de jul. de 2026, 14_46_28.png',
-    catalogImage: '/ChatGPT Image 28 de jul. de 2026, 14_46_28.png',
+    image: '/carros/Carro coletor 240L com pedal.png',
+    catalogImage: '/carros/Carro coletor 240L com pedal.png',
     featured: true
+  },
+  {
+    id: 'container-500l-pead',
+    code: 'FL-CONT-500PEAD',
+    name: 'Container 500L com 4 Rodas',
+    category: 'Containers Industriais',
+    categoryId: 'containers',
+    description: 'Container pesado 500 Litros com rodas giratórias.',
+    capacity: '500 Litros',
+    material: 'PEAD Extra Reforçado',
+    dimensions: '1200mm (L) x 1270mm (P) x 1415mm (A)',
+    colors: ['Verde', 'Amarelo', 'Azul', 'Marrom', 'Preto', 'Branco', 'Cinza', 'Vermelho'],
+    image: '/containers/Container 500L.png',
+    catalogImage: '/containers/Container 500L.png',
+    featured: false
+  },
+  {
+    id: 'container-700l-pead',
+    code: 'FL-CONT-700PEAD',
+    name: 'Container 700L com 4 Rodas',
+    category: 'Containers Industriais',
+    categoryId: 'containers',
+    description: 'Container pesado 700 Litros com rodas giratórias.',
+    capacity: '700 Litros',
+    material: 'PEAD Extra Reforçado',
+    dimensions: '1200mm (L) x 1270mm (P) x 1415mm (A)',
+    colors: ['Verde', 'Amarelo', 'Azul', 'Marrom', 'Preto', 'Branco', 'Cinza', 'Vermelho'],
+    image: '/containers/Container 700L.png',
+    catalogImage: '/containers/Container 700L.png',
+    featured: false
   },
   {
     id: 'container-1000l-pead',
@@ -505,14 +775,44 @@ export const products: Product[] = [
     material: 'PEAD Extra Reforçado',
     dimensions: '1200mm (L) x 1270mm (P) x 1415mm (A)',
     colors: ['Verde', 'Amarelo', 'Azul', 'Marrom', 'Preto', 'Branco', 'Cinza', 'Vermelho'],
-    image: '/ChatGPT Image 28 de jul. de 2026, 15_00_32.png',
-    catalogImage: '/ChatGPT Image 28 de jul. de 2026, 15_00_32.png',
+    image: '/containers/Container 1000L.png',
+    catalogImage: '/containers/Container 1000L.png',
     featured: true
   },
 
   // ==========================================
   // PÁGINA 10: LIXEIRAS INOX COM PEDAL
   // ==========================================
+  {
+    id: 'cesto-inox-12l-pedal',
+    code: 'FL-INOX-12P',
+    name: 'Cesto Inox 12L com Pedal',
+    category: 'Lixeiras Inox com Pedal',
+    categoryId: 'inox-pedal',
+    description: 'Lixeira em aço inox 12L com pedal.',
+    capacity: '12 Litros',
+    material: 'Aço Inox Polido',
+    dimensions: '250mm (Diâmetro) x 390mm (Altura)',
+    colors: ['INOX'],
+    image: '/inox-pedal/Cesto Inox 12L.png',
+    catalogImage: '/inox-pedal/Cesto Inox 12L.png',
+    featured: false
+  },
+  {
+    id: 'cesto-inox-20l-pedal',
+    code: 'FL-INOX-20P',
+    name: 'Cesto Inox 20L com Pedal',
+    category: 'Lixeiras Inox com Pedal',
+    categoryId: 'inox-pedal',
+    description: 'Lixeira em aço inox 20L com pedal.',
+    capacity: '20 Litros',
+    material: 'Aço Inox Polido',
+    dimensions: '300mm (Diâmetro) x 450mm (Altura)',
+    colors: ['INOX'],
+    image: '/inox-pedal/Cesto Inox 20L.png',
+    catalogImage: '/inox-pedal/Cesto Inox 20L.png',
+    featured: false
+  },
   {
     id: 'cesto-inox-30l-pedal',
     code: 'FL-INOX-30P',
@@ -524,14 +824,44 @@ export const products: Product[] = [
     material: 'Aço Inox Polido',
     dimensions: '605mm (Diâmetro) x 310mm (Altura)',
     colors: ['INOX'],
-    image: '/ChatGPT Image 28 de jul. de 2026, 14_49_52.png',
-    catalogImage: '/ChatGPT Image 28 de jul. de 2026, 14_49_52.png',
+    image: '/inox-pedal/Cesto Inox 30L.png',
+    catalogImage: '/inox-pedal/Cesto Inox 30L.png',
     featured: true
+  },
+  {
+    id: 'cesto-inox-50l-pedal',
+    code: 'FL-INOX-50P',
+    name: 'Cesto Inox 50L com Pedal',
+    category: 'Lixeiras Inox com Pedal',
+    categoryId: 'inox-pedal',
+    description: 'Lixeira em aço inox 50L com pedal.',
+    capacity: '50 Litros',
+    material: 'Aço Inox Polido',
+    dimensions: '350mm (Diâmetro) x 650mm (Altura)',
+    colors: ['INOX'],
+    image: '/inox-pedal/Cesto Inox 50L.png',
+    catalogImage: '/inox-pedal/Cesto Inox 50L.png',
+    featured: false
   },
 
   // ==========================================
   // PÁGINA 11 & 12: INOX FLIP TOP & COPOS/PILHAS
   // ==========================================
+  {
+    id: 'inox-22l-flip',
+    code: 'FL-INOX-22FLIP',
+    name: 'Lixeira Inox 22L com Tampa Flip Top',
+    category: 'Inox Flip Top & Aro Colorido',
+    categoryId: 'inox-flip-aro',
+    description: 'Lixeira de inox 22L com tampa flip-top basculante.',
+    capacity: '22 Litros',
+    material: 'Aço Inox com Tampa PP',
+    dimensions: '240mm (Diâmetro) x 500mm (Altura)',
+    colors: ['Verde', 'Amarelo', 'Azul', 'Vermelho', 'Preto', 'Marrom'],
+    image: '/inox-fliptop/22L com tampa Flip Top.png',
+    catalogImage: '/inox-fliptop/22L com tampa Flip Top.png',
+    featured: false
+  },
   {
     id: 'inox-30l-flip',
     code: 'FL-INOX-30FLIP',
@@ -543,23 +873,128 @@ export const products: Product[] = [
     material: 'Aço Inox com Tampa PP',
     dimensions: '240mm (Diâmetro) x 719mm (Altura)',
     colors: ['Verde', 'Amarelo', 'Azul', 'Vermelho', 'Preto', 'Marrom'],
-    image: '/ChatGPT Image 28 de jul. de 2026, 15_18_19.png',
-    catalogImage: '/ChatGPT Image 28 de jul. de 2026, 15_18_19.png',
+    image: '/inox-fliptop/30L com tampa Flip Top.png',
+    catalogImage: '/inox-fliptop/30L com tampa Flip Top.png',
     featured: true
   },
   {
-    id: 'lix-4-tubos-agua-cafe',
-    code: 'FL-COP-4TUB-MIX',
-    name: 'Lixeira 4 Tubos para Copos de Água e Café (500 Copos)',
-    category: 'Descarte de Copos & Pilhas',
+    id: 'inox-50l-flip',
+    code: 'FL-INOX-50FLIP',
+    name: 'Lixeira Inox 50L com Tampa Flip Top',
+    category: 'Inox Flip Top & Aro Colorido',
+    categoryId: 'inox-flip-aro',
+    description: 'Lixeira de inox 50L com tampa flip-top basculante.',
+    capacity: '50 Litros',
+    material: 'Aço Inox com Tampa PP',
+    dimensions: '300mm (Diâmetro) x 700mm (Altura)',
+    colors: ['Verde', 'Amarelo', 'Azul', 'Vermelho', 'Preto', 'Marrom'],
+    image: '/inox-fliptop/50L com tampa Flip Top.png',
+    catalogImage: '/inox-fliptop/50L com tampa Flip Top.png',
+    featured: false
+  },
+  {
+    id: 'coletor-pilhas-7l',
+    code: 'FL-ESP-PILHAS-7L',
+    name: 'Coletor de Pilhas e Baterias 7,70L',
+    category: 'Coletores Especiais',
     categoryId: 'copos-pilhas',
-    description: 'Coletor com tubos divididos para copos de água e café.',
-    capacity: '500 Copos (Água e Café)',
-    material: 'Polipropileno de Alto Impacto',
+    description: 'Coletor específico para descarte de pilhas e baterias.',
+    capacity: '7,70 Litros',
+    material: 'Polipropileno / Acrílico',
+    dimensions: '250mm (A) x 180mm (Diâmetro)',
+    colors: ['Laranja'],
+    image: '/especiais/Coletor de pilhas e baterias — 7,70L.png',
+    catalogImage: '/especiais/Coletor de pilhas e baterias — 7,70L.png',
+    featured: false
+  },
+  {
+    id: 'lix-1-tubo-agua',
+    code: 'FL-ESP-1TUB-AGUA',
+    name: 'Lixeira 1 Tubo para Copos de Água',
+    category: 'Coletores Especiais',
+    categoryId: 'copos-pilhas',
+    description: 'Coletor com 1 tubo para copos de água.',
+    capacity: '150 Copos',
+    material: 'Polipropileno',
+    dimensions: '520mm (A) x 140mm (Diâmetro)',
+    colors: ['Branco', 'Preto', 'Cinza'],
+    image: '/especiais/Lixeira 1 tubo para copos de água — 150 copos.png',
+    catalogImage: '/especiais/Lixeira 1 tubo para copos de água — 150 copos.png',
+    featured: false
+  },
+  {
+    id: 'lix-2-tubos-agua',
+    code: 'FL-ESP-2TUB-AGUA',
+    name: 'Lixeira 2 Tubos para Copos de Água',
+    category: 'Coletores Especiais',
+    categoryId: 'copos-pilhas',
+    description: 'Coletor com 2 tubos para copos de água.',
+    capacity: '300 Copos',
+    material: 'Polipropileno',
     dimensions: '520mm (A) x 240mm (Diâmetro)',
-    colors: ['Azul', 'Vermelho', 'Preto', 'Branco', 'Cinza'],
-    image: '/ChatGPT Image 28 de jul. de 2026, 15_42_34.png',
-    catalogImage: '/ChatGPT Image 28 de jul. de 2026, 15_42_34.png',
+    colors: ['Branco', 'Preto', 'Cinza'],
+    image: '/especiais/Lixeira 2 tubos para copos de água — 300 copos.png',
+    catalogImage: '/especiais/Lixeira 2 tubos para copos de água — 300 copos.png',
+    featured: false
+  },
+  {
+    id: 'lix-2-tubos-agua-cafe',
+    code: 'FL-ESP-2TUB-MIX',
+    name: 'Lixeira 2 Tubos (Água e Café)',
+    category: 'Coletores Especiais',
+    categoryId: 'copos-pilhas',
+    description: 'Coletor com tubos para 200 copos de água e 150 copos de café.',
+    capacity: '350 Copos',
+    material: 'Polipropileno',
+    dimensions: '520mm (A) x 240mm (Diâmetro)',
+    colors: ['Branco', 'Preto', 'Cinza'],
+    image: '/especiais/Lixeira 2 tubos para copos de água e café — 200 copos de água  150 copos de café.png',
+    catalogImage: '/especiais/Lixeira 2 tubos para copos de água e café — 200 copos de água  150 copos de café.png',
+    featured: false
+  },
+  {
+    id: 'lix-4-tubos-agua-preta',
+    code: 'FL-ESP-4TUB-PRETA',
+    name: 'Lixeira 4 Tubos para Copos de Água - Preta',
+    category: 'Coletores Especiais',
+    categoryId: 'copos-pilhas',
+    description: 'Coletor preto com 4 tubos para copos de água.',
+    capacity: '500 Copos',
+    material: 'Polipropileno',
+    dimensions: '520mm (A) x 240mm (Diâmetro)',
+    colors: ['Preto'],
+    image: '/especiais/Lixeira 4 tubos para copos de água preta — 500 copos.png',
+    catalogImage: '/especiais/Lixeira 4 tubos para copos de água preta — 500 copos.png',
+    featured: false
+  },
+  {
+    id: 'lix-4-tubos-agua-vermelha',
+    code: 'FL-ESP-4TUB-VERMELHA',
+    name: 'Lixeira 4 Tubos para Copos de Água - Vermelha',
+    category: 'Coletores Especiais',
+    categoryId: 'copos-pilhas',
+    description: 'Coletor vermelho com 4 tubos para copos de água.',
+    capacity: '500 Copos',
+    material: 'Polipropileno',
+    dimensions: '520mm (A) x 240mm (Diâmetro)',
+    colors: ['Vermelho'],
+    image: '/especiais/Lixeira 4 tubos para copos de água vermelha — 500 copos.png',
+    catalogImage: '/especiais/Lixeira 4 tubos para copos de água vermelha — 500 copos.png',
+    featured: false
+  },
+  {
+    id: 'lix-6-tubos-agua-cafe',
+    code: 'FL-ESP-6TUB-MIX',
+    name: 'Lixeira 6 Tubos (Água e Café)',
+    category: 'Coletores Especiais',
+    categoryId: 'copos-pilhas',
+    description: 'Coletor com tubos para 500 copos de água e 200 copos de café.',
+    capacity: '700 Copos',
+    material: 'Polipropileno',
+    dimensions: '750mm (A) x 300mm (Diâmetro)',
+    colors: ['Branco', 'Preto', 'Cinza'],
+    image: '/especiais/lix 6 tubos copos agua e cafe 500 copos agua e 200 copos cafe.png',
+    catalogImage: '/especiais/lix 6 tubos copos agua e cafe 500 copos agua e 200 copos cafe.png',
     featured: true
   }
 ];

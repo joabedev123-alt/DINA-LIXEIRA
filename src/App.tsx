@@ -1,4 +1,4 @@
-import React, { useState, useMemo } from 'react';
+import React, { useState, useMemo, useEffect } from 'react';
 import { Header } from './components/Header';
 import { Hero } from './components/Hero';
 import { CategoryFilter } from './components/CategoryFilter';
@@ -12,11 +12,21 @@ import { Product, QuoteItem } from './types';
 import { SearchX, Filter } from 'lucide-react';
 
 export const App: React.FC = () => {
+  const [showSplash, setShowSplash] = useState<boolean>(true);
   const [searchTerm, setSearchTerm] = useState<string>('');
   const [selectedCategory, setSelectedCategory] = useState<string>('todos');
   const [modalProduct, setModalProduct] = useState<Product | null>(null);
   const [quoteItems, setQuoteItems] = useState<QuoteItem[]>([]);
   const [isQuoteOpen, setIsQuoteOpen] = useState<boolean>(false);
+
+  useEffect(() => {
+    const timer = setTimeout(() => {
+      setShowSplash(false);
+    }, 1000);
+    return () => clearTimeout(timer);
+  }, []);
+
+
 
   // Filter products by Category and Search Term
   const filteredProducts = useMemo(() => {
@@ -72,7 +82,21 @@ export const App: React.FC = () => {
   };
 
   return (
-    <div style={{ minHeight: '100vh', display: 'flex', flexDirection: 'column', backgroundColor: '#f8fafc' }}>
+    <>
+      {showSplash && (
+        <div style={{
+          position: 'fixed',
+          inset: 0,
+          backgroundColor: '#fff',
+          display: 'flex',
+          alignItems: 'center',
+          justifyContent: 'center',
+          zIndex: 9999
+        }}>
+          <img src="/logo.png" alt="Fort Lixeiras" style={{ maxWidth: '280px', height: 'auto', animation: 'pulse 2s infinite' }} />
+        </div>
+      )}
+      <div style={{ minHeight: '100vh', display: 'flex', flexDirection: 'column', backgroundColor: '#f8fafc' }}>
       
       {/* Sticky Header */}
       <Header
@@ -204,6 +228,7 @@ export const App: React.FC = () => {
       <Footer />
 
     </div>
+    </>
   );
 };
 

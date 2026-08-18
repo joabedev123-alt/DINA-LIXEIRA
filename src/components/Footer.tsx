@@ -8,21 +8,8 @@ export const Footer: React.FC = () => {
         
         {/* Col 1: Brand */}
         <div>
-          <div style={{ display: 'flex', alignItems: 'center', gap: '0.6rem', color: '#fff', fontSize: '1.25rem', fontWeight: 800, marginBottom: '1rem' }}>
-            <div style={{
-              width: '36px',
-              height: '36px',
-              borderRadius: 'var(--radius-sm)',
-              background: 'var(--primary-600)',
-              display: 'flex',
-              alignItems: 'center',
-              justifyContent: 'center',
-              color: '#fff',
-              fontSize: '1.1rem'
-            }}>
-              F
-            </div>
-            FORT LIXEIRAS
+          <div style={{ marginBottom: '1rem' }}>
+            <img src="/logo.png" alt="Fort Lixeiras" style={{ height: '40px', width: 'auto', filter: 'brightness(0) invert(1)' }} />
           </div>
           <p style={{ fontSize: '0.85rem', lineHeight: 1.6, marginBottom: '1.2rem' }}>
             Líder no fornecimento de lixeiras de coleta seletiva, containers industriais e soluções para gestão ecológica de resíduos.
@@ -69,8 +56,11 @@ export const Footer: React.FC = () => {
 
       </div>
 
-      <div style={{ borderTop: '1px solid var(--slate-800)', paddingTop: '1.5rem', textAlign: 'center', fontSize: '0.8rem' }}>
+      <div style={{ borderTop: '1px solid var(--slate-800)', paddingTop: '1.5rem', textAlign: 'center', fontSize: '0.8rem', display: 'flex', flexDirection: 'column', gap: '0.5rem' }}>
         <p>© {new Date().getFullYear()} Fort Lixeiras. Todos os direitos reservados. Catálogo digital oficial.</p>
+        <p style={{ color: 'var(--slate-500)' }}>
+          Produzida com 💚 por <a href="https://camaly.com.br/" target="_blank" rel="noopener noreferrer" style={{ color: 'var(--primary-400)', textDecoration: 'none', fontWeight: 600 }}>CAMALY</a>
+        </p>
       </div>
     </footer>
   );

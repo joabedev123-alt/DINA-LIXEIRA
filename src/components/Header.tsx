@@ -41,33 +41,11 @@ export const Header: React.FC<HeaderProps> = ({
       </div>
 
       {/* Main Header Content */}
-      <div className="container" style={{ padding: '1rem 1.5rem', display: 'flex', alignItems: 'center', justifyContent: 'space-between', gap: '1.5rem' }}>
+      <div className="container" style={{ padding: '1rem 1.5rem', display: 'flex', alignItems: 'center', justifyContent: 'space-between', gap: '1.5rem', flexWrap: 'wrap' }}>
         
         {/* Brand Logo */}
-        <div style={{ display: 'flex', alignItems: 'center', gap: '0.75rem', cursor: 'pointer' }} onClick={() => setSearchTerm('')}>
-          <div style={{
-            width: '46px',
-            height: '46px',
-            borderRadius: 'var(--radius-md)',
-            background: 'linear-gradient(135deg, var(--primary-600), var(--primary-800))',
-            display: 'flex',
-            alignItems: 'center',
-            justifyContent: 'center',
-            boxShadow: 'var(--shadow-glow)',
-            color: '#fff',
-            fontWeight: 800,
-            fontSize: '1.4rem'
-          }}>
-            F
-          </div>
-          <div>
-            <div style={{ fontSize: '1.35rem', fontWeight: 800, color: 'var(--slate-900)', lineHeight: 1.1 }}>
-              FORT <span style={{ color: 'var(--primary-600)' }}>LIXEIRAS</span>
-            </div>
-            <div style={{ fontSize: '0.75rem', color: 'var(--slate-600)', fontWeight: 500 }}>
-              Soluções em Coleta e Descarte
-            </div>
-          </div>
+        <div style={{ display: 'flex', alignItems: 'center', cursor: 'pointer' }} onClick={() => setSearchTerm('')}>
+          <img src="/logo.png" alt="Fort Lixeiras" style={{ height: '46px', width: 'auto' }} />
         </div>
 
         {/* Search Bar */}
