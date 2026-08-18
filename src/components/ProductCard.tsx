@@ -176,7 +176,7 @@ export const ProductCard: React.FC<ProductCardProps> = ({
             }}
           >
             {isInQuote ? <Check size={16} color="#34d399" /> : <Plus size={16} />}
-            {isInQuote ? 'Adicionado' : 'Orçamento'}
+            {isInQuote ? 'Adicionado' : 'Adicionar'}
           </button>
         </div>
       </div>

@@ -288,7 +288,7 @@ export const ProductModal: React.FC<ProductModalProps> = ({
                   }}
                 >
                   {addedSuccess ? <Check size={18} /> : <ShoppingBag size={18} />}
-                  {addedSuccess ? 'Adicionado!' : 'Adicionar ao Orçamento'}
+                  {addedSuccess ? 'Adicionado!' : 'Adicionar'}
                 </button>
 
                 <a
