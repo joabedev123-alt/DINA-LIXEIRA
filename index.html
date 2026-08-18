@@ -13,12 +13,46 @@
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Plus+Jakarta+Sans:wght@500;600;700;800&display=swap" rel="stylesheet">
   </head>
   <body>
+    <style>
+      .html-hero {
+        position: relative;
+        text-align: center;
+        color: white;
+        background: url('media__1787059363435.png') center/cover no-repeat;
+        height: 50vh;
+        min-height: 300px;
+      }
+      .html-hero h1 {
+        font-family: 'Inter', sans-serif;
+        font-size: 3rem;
+        margin: 0;
+      }
+      .html-hero p {
+        font-family: 'Inter', sans-serif;
+        font-size: 1.2rem;
+        margin-top: 0.5rem;
+      }
+      @media (max-width: 768px) {
+        .html-hero h1 {
+          font-size: 2rem;
+        }
+        .html-hero p {
+          font-size: 1rem;
+        }
+        .html-hero {
+          height: 40vh;
+          min-height: 250px;
+        }
+        .html-hero > div {
+          width: 90%;
+        }
+      }
+    </style>
     <!-- Hero section: Catálogo Oficial de Fábrica -->
-    <section class="hero" style="position:relative; text-align:center; color:white; background: url('media__1787059363435.png') center/cover no-repeat;">
-      
-      <div style="position:absolute; top:50%; left:50%; transform:translate(-50%, -50%);">
-        <h1 style="font-family:'Inter', sans-serif; font-size:3rem; margin:0;">Catálogo Oficial de Fábrica</h1>
-        <p style="font-family:'Inter', sans-serif; font-size:1.2rem; margin-top:0.5rem;">Soluções Profissionais em Lixeiras &amp; Coleta Seletiva</p>
+    <section class="html-hero">
+      <div style="position:absolute; top:50%; left:50%; transform:translate(-50%, -50%); width: 100%;">
+        <h1>Catálogo Oficial de Fábrica</h1>
+        <p>Soluções Profissionais em Lixeiras &amp; Coleta Seletiva</p>
       </div>
     </section>
     <div id="root"></div>
