@@ -77,7 +77,7 @@ export const Hero: React.FC = () => {
                 fontSize: '0.95rem'
               }}
             >
-              <WhatsAppIcon size={18} /> Orçamento Rápido via WhatsApp
+              <WhatsAppIcon size={18} /> Falar com Especialista
             </a>
 
             <a
