@@ -152,18 +152,39 @@ h1, h2, h3, h4, h5, h6 {
   animation: pulseGlow 2.5s infinite;
 }
 
+/* --- Standardized Grids --- */
+.products-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 1.75rem;
+}
+.about-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 2rem;
+}
+.card-buttons-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0.6rem;
+  margin-top: auto;
+}
+
 /* --- Mobile Optimizations --- */
 @media (max-width: 768px) {
   .container {
     padding: 0 1rem !important;
   }
+  
+  .products-grid, .about-grid, .card-buttons-grid {
+    grid-template-columns: 1fr !important;
+  }
 
-  /* Layout */
   .mobile-grid-1 {
     grid-template-columns: 1fr !important;
   }
 
-  /* Header */
+/* Header */
   .mobile-header-top {
     justify-content: center !important;
     flex-wrap: wrap !important;

@@ -153,7 +153,7 @@ export const ProductCard: React.FC<ProductCardProps> = ({
         )}
 
         {/* Action Buttons */}
-        <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '0.6rem', marginTop: 'auto' }}>
+        <div className="card-buttons-grid">
           <button
             onClick={() => onViewDetails(product)}
             style={{

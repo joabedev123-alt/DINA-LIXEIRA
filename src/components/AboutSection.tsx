@@ -18,7 +18,7 @@ export const AboutSection: React.FC = () => {
           </p>
         </div>
 
-        <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(240px, 1fr))', gap: '2rem' }}>
+        <div className="about-grid">
           
           <div style={{ textAlign: 'center', padding: '1.5rem', borderRadius: 'var(--radius-md)', backgroundColor: 'var(--slate-50)' }}>
             <div style={{ width: '52px', height: '52px', borderRadius: '50%', backgroundColor: 'var(--primary-50)', color: 'var(--primary-600)', display: 'flex', alignItems: 'center', justifyContent: 'center', margin: '0 auto 1rem' }}>
