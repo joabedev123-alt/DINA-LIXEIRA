@@ -1,0 +1,565 @@
+import { Product, Category } from '../types';
+
+export const categories: Category[] = [
+  { id: 'todos', name: 'Todos os Produtos', iconName: 'Grid' },
+  { id: 'basculante', name: 'Tampa Basculante & Baldes', iconName: 'Sparkles', description: 'Lixeiras de 15L a 100L com tampa vai-vem ou formato balde.' },
+  { id: 'pedal', name: 'Lixeiras com Pedal', iconName: 'Footprints', description: 'Lixeiras sanitárias e hospitalares de 15L a 100L com acionamento por pedal.' },
+  { id: 'coleta-larplast', name: 'Coleta Seletiva 60L Lar Plast', iconName: 'Recycle', description: 'Conjuntos de 2 a 6 cestos 60L com suporte Lar Plast.' },
+  { id: 'coleta-jsn-60l', name: 'Coleta Seletiva 60L JSN', iconName: 'Recycle', description: 'Conjuntos de 2 a 6 cestos 60L com suporte JSN.' },
+  { id: 'coleta-jsn-100l', name: 'Coleta Seletiva 100L JSN', iconName: 'Recycle', description: 'Conjuntos de 2 a 6 cestos 100L com suporte JSN.' },
+  { id: 'papeleiras-50l', name: 'Papeleiras Coleta Seletiva 50L', iconName: 'Recycle', description: 'Papeleiras 50L de 2 a 6 cestos com suporte tubular.' },
+  { id: 'mix-inox', name: 'Mix Plástico e Inox', iconName: 'Sparkles', description: 'Lixeiras circulares de 26L e 30L com divisórias para reciclagem.' },
+  { id: 'carros-coletores', name: 'Carros Coletores com Pedal', iconName: 'Truck', description: 'Carros coletores de 120L e 240L com rodas e pedal.' },
+  { id: 'containers', name: 'Containers Industriais', iconName: 'Truck', description: 'Containers com 4 rodas de 500L, 700L e 1000L.' },
+  { id: 'inox-pedal', name: 'Lixeiras Inox com Pedal', iconName: 'Sparkles', description: 'Cestos de Aço Inox com pedal de 12L, 20L, 30L e 50L.' },
+  { id: 'inox-flip-aro', name: 'Inox Flip Top & Aro Colorido', iconName: 'Sparkles', description: 'Lixeiras Inox de 22L, 30L e 50L com tampa Flip Top, Aro Plástico ou Pintado.' },
+  { id: 'copos-pilhas', name: 'Descarte de Copos & Pilhas', iconName: 'BatteryCharging', description: 'Coletores para copos de água/café e pilhas/baterias.' }
+];
+
+export const products: Product[] = [
+  // ==========================================
+  // PÁGINA 1: LIXEIRA COM TAMPA BASCULANTE E BALDES
+  // ==========================================
+  {
+    id: 'basc-15l-lp',
+    code: 'FL-BASC-15LP',
+    name: 'Lixeira 15L com Tampa Basculante LP',
+    category: 'Tampa Basculante & Baldes',
+    categoryId: 'basculante',
+    description: 'Lixeira 15 Litros redonda com tampa basculante vai-vem.',
+    capacity: '15 Litros',
+    material: 'Polipropileno (PP)',
+    dimensions: '240mm (Diâmetro) x 420mm (Altura)',
+    colors: ['Amarelo', 'Azul', 'Preto', 'Branco', 'Marrom', 'Vermelho'],
+    image: '/ChatGPT Image 28 de jul. de 2026, 14_38_26.png',
+    catalogImage: '/ChatGPT Image 28 de jul. de 2026, 14_38_26.png',
+    featured: false
+  },
+  {
+    id: 'basc-15l-sem-tampa-lp',
+    code: 'FL-ST-15LP',
+    name: 'Lixeira 15L Sem Tampa LP',
+    category: 'Tampa Basculante & Baldes',
+    categoryId: 'basculante',
+    description: 'Cesto de lixo aberto 15 Litros em plástico de alta resistência.',
+    capacity: '15 Litros',
+    material: 'Polipropileno (PP)',
+    dimensions: '240mm (Diâmetro) x 415mm (Altura)',
+    colors: ['Verde', 'Amarelo', 'Azul', 'Preto', 'Branco', 'Marrom', 'Vermelho'],
+    image: '/ChatGPT Image 28 de jul. de 2026, 15_42_34.png',
+    catalogImage: '/ChatGPT Image 28 de jul. de 2026, 14_38_26.png',
+    featured: false
+  },
+  {
+    id: 'basc-23l-sem-tampa-jsn',
+    code: 'FL-ST-23JSN',
+    name: 'Lixeira 23L Sem Tampa JSN',
+    category: 'Tampa Basculante & Baldes',
+    categoryId: 'basculante',
+    description: 'Coletor alto cilíndrico sem tampa 23 Litros.',
+    capacity: '23 Litros',
+    material: 'Polipropileno (PP)',
+    dimensions: '240mm (Diâmetro) x 645mm (Altura)',
+    colors: ['Verde', 'Amarelo', 'Azul', 'Preto', 'Branco', 'Marrom', 'Vermelho'],
+    image: '/ChatGPT Image 28 de jul. de 2026, 15_18_19.png',
+    catalogImage: '/ChatGPT Image 28 de jul. de 2026, 14_38_26.png',
+    featured: false
+  },
+  {
+    id: 'basc-23l-tampa-jsn',
+    code: 'FL-BASC-23JSN',
+    name: 'Lixeira 23L com Tampa Basculante JSN',
+    category: 'Tampa Basculante & Baldes',
+    categoryId: 'basculante',
+    description: 'Lixeira 23 Litros cilíndrica com tampa basculante.',
+    capacity: '23 Litros',
+    material: 'Polipropileno (PP)',
+    dimensions: '240mm (Diâmetro) x 650mm (Altura)',
+    colors: ['Verde', 'Amarelo', 'Azul', 'Preto', 'Branco', 'Marrom', 'Vermelho'],
+    image: '/ChatGPT Image 28 de jul. de 2026, 15_09_06.png',
+    catalogImage: '/ChatGPT Image 28 de jul. de 2026, 14_38_26.png',
+    featured: false
+  },
+  {
+    id: 'basc-25l-tampa-jsn',
+    code: 'FL-BASC-25JSN',
+    name: 'Lixeira 25L com Tampa Basculante JSN',
+    category: 'Tampa Basculante & Baldes',
+    categoryId: 'basculante',
+    description: 'Lixeira quadrada de 25 Litros com tampa vai-vem.',
+    capacity: '25 Litros',
+    material: 'Polipropileno (PP)',
+    dimensions: '298mm (L) x 298mm (P) x 570mm (A)',
+    colors: ['Preto', 'Branco', 'Cinza', 'Marrom', 'Vermelho'],
+    image: '/ChatGPT Image 28 de jul. de 2026, 14_55_00.png',
+    catalogImage: '/ChatGPT Image 28 de jul. de 2026, 14_38_26.png',
+    featured: false
+  },
+  {
+    id: 'basc-50l-tampa-jsn',
+    code: 'FL-BASC-50JSN',
+    name: 'Lixeira 50L com Tampa Basculante JSN',
+    category: 'Tampa Basculante & Baldes',
+    categoryId: 'basculante',
+    description: 'Lixeira de 50 Litros com tampa basculante para áreas de médio fluxo.',
+    capacity: '50 Litros',
+    material: 'Polipropileno (PP)',
+    dimensions: '320mm (Diâmetro) x 805mm (Altura)',
+    colors: ['Verde', 'Amarelo', 'Azul', 'Preto', 'Branco', 'Marrom', 'Vermelho'],
+    image: '/ChatGPT Image 28 de jul. de 2026, 15_12_34.png',
+    catalogImage: '/ChatGPT Image 28 de jul. de 2026, 14_38_26.png',
+    featured: true
+  },
+  {
+    id: 'basc-60l-tampa-jsn',
+    code: 'FL-BASC-60JSN',
+    name: 'Lixeira 60L com Tampa Basculante JSN',
+    category: 'Tampa Basculante & Baldes',
+    categoryId: 'basculante',
+    description: 'Lixeira retangular 60 Litros com tampa vai-vem JSN.',
+    capacity: '60 Litros',
+    material: 'Polipropileno (PP)',
+    dimensions: '370mm (L) x 370mm (P) x 720mm (A)',
+    colors: ['Verde', 'Amarelo', 'Azul', 'Preto', 'Branco', 'Marrom', 'Vermelho'],
+    image: '/ChatGPT Image 28 de jul. de 2026, 15_37_15.png',
+    catalogImage: '/ChatGPT Image 28 de jul. de 2026, 14_38_26.png',
+    featured: true
+  },
+  {
+    id: 'basc-60l-tampa-lp',
+    code: 'FL-BASC-60LP',
+    name: 'Lixeira 60L com Tampa Basculante LP',
+    category: 'Tampa Basculante & Baldes',
+    categoryId: 'basculante',
+    description: 'Lixeira 60 Litros com tampa basculante modelo LP.',
+    capacity: '60 Litros',
+    material: 'Polipropileno (PP)',
+    dimensions: '380mm (L) x 380mm (P) x 720mm (A)',
+    colors: ['Verde', 'Amarelo', 'Azul', 'Preto', 'Branco', 'Marrom'],
+    image: '/ChatGPT Image 28 de jul. de 2026, 14_38_26.png',
+    catalogImage: '/ChatGPT Image 28 de jul. de 2026, 14_38_26.png',
+    featured: false
+  },
+  {
+    id: 'balde-60l-tampa',
+    code: 'FL-BALDE-60',
+    name: 'Lixeira 60L Balde com Tampa',
+    category: 'Tampa Basculante & Baldes',
+    categoryId: 'basculante',
+    description: 'Balde coletor circular 60 Litros com tampa.',
+    capacity: '60 Litros',
+    material: 'Polietileno de Alta Densidade',
+    dimensions: '510mm (Diâmetro) x 590mm (Profundidade) x 335mm (A)',
+    colors: ['Verde', 'Amarelo', 'Azul', 'Preto', 'Branco', 'Marrom', 'Vermelho'],
+    image: '/ChatGPT Image 28 de jul. de 2026, 14_46_28.png',
+    catalogImage: '/ChatGPT Image 28 de jul. de 2026, 14_38_26.png',
+    featured: false
+  },
+  {
+    id: 'basc-100l-tampa-jsn',
+    code: 'FL-BASC-100JSN',
+    name: 'Lixeira 100L com Tampa Basculante JSN',
+    category: 'Tampa Basculante & Baldes',
+    categoryId: 'basculante',
+    description: 'Lixeira retangular 100 Litros com tampa basculante.',
+    capacity: '100 Litros',
+    material: 'Polipropileno Injetado',
+    dimensions: '450mm (L) x 540mm (P) x 810mm (A)',
+    colors: ['Verde', 'Amarelo', 'Azul', 'Preto', 'Branco', 'Marrom', 'Vermelho'],
+    image: '/ChatGPT Image 28 de jul. de 2026, 15_12_34.png',
+    catalogImage: '/ChatGPT Image 28 de jul. de 2026, 14_38_26.png',
+    featured: true
+  },
+  {
+    id: 'basc-100l-tampa-ubl',
+    code: 'FL-BASC-100UBL',
+    name: 'Lixeira 100L com Tampa Basculante UBL',
+    category: 'Tampa Basculante & Baldes',
+    categoryId: 'basculante',
+    description: 'Lixeira alta 100 Litros com tampa basculante UBL.',
+    capacity: '100 Litros',
+    material: 'Polipropileno (PP)',
+    dimensions: '400mm (L) x 400mm (P) x 1010mm (A)',
+    colors: ['Verde', 'Amarelo', 'Azul', 'Marrom', 'Vermelho'],
+    image: '/ChatGPT Image 28 de jul. de 2026, 15_38_14.png',
+    catalogImage: '/ChatGPT Image 28 de jul. de 2026, 14_38_26.png',
+    featured: false
+  },
+  {
+    id: 'balde-100l-tampa',
+    code: 'FL-BALDE-100',
+    name: 'Lixeira 100L Balde com Tampa',
+    category: 'Tampa Basculante & Baldes',
+    categoryId: 'basculante',
+    description: 'Balde coletor robusto de 100 Litros com tampa de vedação.',
+    capacity: '100 Litros',
+    material: 'Polietileno de Alta Densidade',
+    dimensions: '590mm (Diâmetro) x 515mm (P) x 730mm (A)',
+    colors: ['Verde', 'Amarelo', 'Azul', 'Preto', 'Branco', 'Cinza'],
+    image: '/ChatGPT Image 28 de jul. de 2026, 15_00_32.png',
+    catalogImage: '/ChatGPT Image 28 de jul. de 2026, 14_38_26.png',
+    featured: false
+  },
+
+  // ==========================================
+  // PÁGINA 2: LIXEIRA COM PEDAL
+  // ==========================================
+  {
+    id: 'pedal-15l-jsn',
+    code: 'FL-PED-15JSN',
+    name: 'Lixeira 15L com Pedal JSN',
+    category: 'Lixeiras com Pedal',
+    categoryId: 'pedal',
+    description: 'Lixeira com pedal 15 Litros sanitária.',
+    capacity: '15 Litros',
+    material: 'Polipropileno (PP)',
+    dimensions: '323mm (L) x 281mm (P) x 402mm (A)',
+    colors: ['Verde', 'Amarelo', 'Azul', 'Preto', 'Branco', 'Marrom', 'Vermelho'],
+    image: '/ChatGPT Image 28 de jul. de 2026, 14_55_00.png',
+    catalogImage: '/ChatGPT Image 28 de jul. de 2026, 14_55_00.png',
+    featured: true
+  },
+  {
+    id: 'pedal-15l-lp',
+    code: 'FL-PED-15LP',
+    name: 'Lixeira 15L com Pedal LP',
+    category: 'Lixeiras com Pedal',
+    categoryId: 'pedal',
+    description: 'Lixeira retangular 15 Litros com pedal LP.',
+    capacity: '15 Litros',
+    material: 'Polipropileno (PP)',
+    dimensions: '280mm (L) x 370mm (P) x 440mm (A)',
+    colors: ['Verde', 'Amarelo', 'Azul', 'Marrom', 'Cinza'],
+    image: '/ChatGPT Image 28 de jul. de 2026, 14_49_52.png',
+    catalogImage: '/ChatGPT Image 28 de jul. de 2026, 14_55_00.png',
+    featured: false
+  },
+  {
+    id: 'pedal-25l-jsn',
+    code: 'FL-PED-25JSN',
+    name: 'Lixeira 25L com Pedal JSN',
+    category: 'Lixeiras com Pedal',
+    categoryId: 'pedal',
+    description: 'Lixeira 25 Litros com pedal sanitário JSN.',
+    capacity: '25 Litros',
+    material: 'Polipropileno (PP)',
+    dimensions: '335mm (L) x 310mm (P) x 450mm (A)',
+    colors: ['Verde', 'Amarelo', 'Azul', 'Preto', 'Branco', 'Marrom', 'Vermelho'],
+    image: '/ChatGPT Image 28 de jul. de 2026, 14_55_00.png',
+    catalogImage: '/ChatGPT Image 28 de jul. de 2026, 14_55_00.png',
+    featured: false
+  },
+  {
+    id: 'pedal-25l-lp',
+    code: 'FL-PED-25LP',
+    name: 'Lixeira 25L com Pedal LP',
+    category: 'Lixeiras com Pedal',
+    categoryId: 'pedal',
+    description: 'Lixeira 25 Litros com pedal e tampa hermética LP.',
+    capacity: '25 Litros',
+    material: 'Polipropileno (PP)',
+    dimensions: '330mm (L) x 370mm (P) x 600mm (A)',
+    colors: ['Verde', 'Amarelo', 'Azul', 'Preto', 'Branco', 'Marrom', 'Vermelho'],
+    image: '/ChatGPT Image 28 de jul. de 2026, 15_37_15.png',
+    catalogImage: '/ChatGPT Image 28 de jul. de 2026, 14_55_00.png',
+    featured: false
+  },
+  {
+    id: 'pedal-30l-jsn',
+    code: 'FL-PED-30JSN',
+    name: 'Lixeira 30L com Pedal JSN',
+    category: 'Lixeiras com Pedal',
+    categoryId: 'pedal',
+    description: 'Lixeira 30 Litros de alta durabilidade com pedal JSN.',
+    capacity: '30 Litros',
+    material: 'Polipropileno (PP)',
+    dimensions: '240mm (Diâmetro) x 645mm (Altura)',
+    colors: ['Verde', 'Amarelo', 'Azul', 'Preto', 'Branco', 'Marrom', 'Vermelho'],
+    image: '/ChatGPT Image 28 de jul. de 2026, 14_49_52.png',
+    catalogImage: '/ChatGPT Image 28 de jul. de 2026, 14_55_00.png',
+    featured: false
+  },
+  {
+    id: 'pedal-50l-lp',
+    code: 'FL-PED-50LP',
+    name: 'Lixeira 50L com Pedal LP',
+    category: 'Lixeiras com Pedal',
+    categoryId: 'pedal',
+    description: 'Lixeira 50 Litros com pedal largo modelo LP.',
+    capacity: '50 Litros',
+    material: 'Polipropileno (PP)',
+    dimensions: '320mm (L) x 320mm (P) x 805mm (A)',
+    colors: ['Verde', 'Amarelo', 'Azul', 'Preto', 'Branco', 'Marrom'],
+    image: '/ChatGPT Image 28 de jul. de 2026, 15_37_15.png',
+    catalogImage: '/ChatGPT Image 28 de jul. de 2026, 14_55_00.png',
+    featured: false
+  },
+  {
+    id: 'pedal-60l-jsn',
+    code: 'FL-PED-60JSN',
+    name: 'Lixeira 60L com Pedal JSN',
+    category: 'Lixeiras com Pedal',
+    categoryId: 'pedal',
+    description: 'Lixeira de 60 Litros com acionamento por pedal JSN.',
+    capacity: '60 Litros',
+    material: 'Polipropileno Injetado',
+    dimensions: '480mm (L) x 560mm (P) x 710mm (A)',
+    colors: ['Verde', 'Amarelo', 'Azul', 'Preto', 'Branco', 'Marrom'],
+    image: '/ChatGPT Image 28 de jul. de 2026, 14_55_00.png',
+    catalogImage: '/ChatGPT Image 28 de jul. de 2026, 14_55_00.png',
+    featured: true
+  },
+  {
+    id: 'pedal-100l-jsn',
+    code: 'FL-PED-100JSN',
+    name: 'Lixeira 100L com Pedal JSN',
+    category: 'Lixeiras com Pedal',
+    categoryId: 'pedal',
+    description: 'Lixeira hospitalar e industrial 100 Litros com pedal.',
+    capacity: '100 Litros',
+    material: 'Polipropileno de Alto Impacto',
+    dimensions: '425mm (L) x 595mm (P) x 925mm (A)',
+    colors: ['Verde', 'Amarelo', 'Azul', 'Preto', 'Branco', 'Marrom'],
+    image: '/ChatGPT Image 28 de jul. de 2026, 15_37_15.png',
+    catalogImage: '/ChatGPT Image 28 de jul. de 2026, 14_55_00.png',
+    featured: true
+  },
+
+  // ==========================================
+  // PÁGINA 3: COLETA SELETIVA 60L COM SUPORTE LAR PLAST
+  // ==========================================
+  {
+    id: 'cs-lar-60l-2c',
+    code: 'FL-CS-LAR60-2C',
+    name: 'Coleta Seletiva 60L com 2 Cestos Lar Plast',
+    category: 'Coleta Seletiva 60L Lar Plast',
+    categoryId: 'coleta-larplast',
+    description: 'Conjunto 2 cestos 60L com suporte tubular Lar Plast.',
+    capacity: '2 Cestos de 60L (120L total)',
+    material: 'PP + Suporte em Aço Carbono',
+    dimensions: '430mm (L) x 930mm (P) x 810mm (A)',
+    colors: ['Verde', 'Amarelo', 'Azul', 'Preto', 'Branco', 'Marrom', 'Vermelho'],
+    image: '/ChatGPT Image 28 de jul. de 2026, 14_38_26.png',
+    catalogImage: '/ChatGPT Image 28 de jul. de 2026, 15_12_34.png',
+    featured: false
+  },
+  {
+    id: 'cs-lar-60l-3c',
+    code: 'FL-CS-LAR60-3C',
+    name: 'Coleta Seletiva 60L com 3 Cestos Lar Plast',
+    category: 'Coleta Seletiva 60L Lar Plast',
+    categoryId: 'coleta-larplast',
+    description: 'Conjunto 3 cestos 60L com suporte Lar Plast.',
+    capacity: '3 Cestos de 60L (180L total)',
+    material: 'PP + Suporte em Aço Carbono',
+    dimensions: '430mm (L) x 930mm (P) x 1200mm (A)',
+    colors: ['Verde', 'Amarelo', 'Azul', 'Preto', 'Branco', 'Marrom', 'Vermelho'],
+    image: '/ChatGPT Image 28 de jul. de 2026, 14_38_26.png',
+    catalogImage: '/ChatGPT Image 28 de jul. de 2026, 15_12_34.png',
+    featured: false
+  },
+  {
+    id: 'cs-lar-60l-4c',
+    code: 'FL-CS-LAR60-4C',
+    name: 'Coleta Seletiva 60L com 4 Cestos Lar Plast',
+    category: 'Coleta Seletiva 60L Lar Plast',
+    categoryId: 'coleta-larplast',
+    description: 'Estação de reciclagem 4 vias 60L com suporte Lar Plast.',
+    capacity: '4 Cestos de 60L (240L total)',
+    material: 'PP + Suporte em Aço Carbono',
+    dimensions: '430mm (L) x 930mm (P) x 1610mm (A)',
+    colors: ['Verde', 'Amarelo', 'Azul', 'Preto', 'Branco', 'Marrom', 'Vermelho'],
+    image: '/ChatGPT Image 28 de jul. de 2026, 14_38_26.png',
+    catalogImage: '/ChatGPT Image 28 de jul. de 2026, 15_12_34.png',
+    featured: true
+  },
+  {
+    id: 'cs-lar-60l-5c',
+    code: 'FL-CS-LAR60-5C',
+    name: 'Coleta Seletiva 60L com 5 Cestos Lar Plast',
+    category: 'Coleta Seletiva 60L Lar Plast',
+    categoryId: 'coleta-larplast',
+    description: 'Conjunto 5 vias de 60L com suporte Lar Plast.',
+    capacity: '5 Cestos de 60L (300L total)',
+    material: 'PP + Suporte em Aço Carbono',
+    dimensions: '430mm (L) x 930mm (P) x 2100mm (A)',
+    colors: ['Verde', 'Amarelo', 'Azul', 'Preto', 'Branco', 'Marrom', 'Vermelho'],
+    image: '/ChatGPT Image 28 de jul. de 2026, 15_12_34.png',
+    catalogImage: '/ChatGPT Image 28 de jul. de 2026, 15_12_34.png',
+    featured: false
+  },
+  {
+    id: 'cs-lar-60l-6c',
+    code: 'FL-CS-LAR60-6C',
+    name: 'Coleta Seletiva 60L com 6 Cestos Lar Plast',
+    category: 'Coleta Seletiva 60L Lar Plast',
+    categoryId: 'coleta-larplast',
+    description: 'Conjunto completo 6 vias 60L com suporte Lar Plast.',
+    capacity: '6 Cestos de 60L (360L total)',
+    material: 'PP + Suporte em Aço Carbono',
+    dimensions: '430mm (L) x 930mm (P) x 2420mm (A)',
+    colors: ['Verde', 'Amarelo', 'Azul', 'Preto', 'Branco', 'Marrom', 'Vermelho'],
+    image: '/ChatGPT Image 28 de jul. de 2026, 15_12_34.png',
+    catalogImage: '/ChatGPT Image 28 de jul. de 2026, 15_12_34.png',
+    featured: false
+  },
+
+  // ==========================================
+  // PÁGINA 4 & 5: COLETA SELETIVA 60L E 100L JSN
+  // ==========================================
+  {
+    id: 'cs-jsn-60l-4c',
+    code: 'FL-CS-JSN60-4C',
+    name: 'Coleta Seletiva 60L com 4 Cestos JSN',
+    category: 'Coleta Seletiva 60L JSN',
+    categoryId: 'coleta-jsn-60l',
+    description: 'Estação 4 vias 60L com suporte tubular JSN.',
+    capacity: '4 Cestos de 60L (240L total)',
+    material: 'PP JSN + Suporte em Aço',
+    dimensions: '1480mm (L) x 345mm (P) x 1050mm (A)',
+    colors: ['Verde', 'Amarelo', 'Azul', 'Preto', 'Branco', 'Marrom', 'Vermelho'],
+    image: '/ChatGPT Image 28 de jul. de 2026, 15_12_34.png',
+    catalogImage: '/ChatGPT Image 28 de jul. de 2026, 15_12_34.png',
+    featured: true
+  },
+  {
+    id: 'cs-jsn-100l-4c',
+    code: 'FL-CS-JSN100-4C',
+    name: 'Coleta Seletiva 100L com 4 Cestos JSN',
+    category: 'Coleta Seletiva 100L JSN',
+    categoryId: 'coleta-jsn-100l',
+    description: 'Estação 4 vias 100L por cesto com suporte JSN.',
+    capacity: '4 Cestos de 100L (400L total)',
+    material: 'PP JSN + Suporte em Aço',
+    dimensions: '1822mm (L) x 425mm (P) x 1070mm (A)',
+    colors: ['Verde', 'Amarelo', 'Azul', 'Preto', 'Branco', 'Marrom', 'Vermelho'],
+    image: '/ChatGPT Image 28 de jul. de 2026, 15_12_34.png',
+    catalogImage: '/ChatGPT Image 28 de jul. de 2026, 15_12_34.png',
+    featured: true
+  },
+
+  // ==========================================
+  // PÁGINA 6: PAPELEIRAS COLETA SELETIVA 50L COM SUPORTE
+  // ==========================================
+  {
+    id: 'pap-50l-4c',
+    code: 'FL-PAP-50L-4C',
+    name: 'Papeleira Coleta Seletiva 50L com 4 Cestos',
+    category: 'Papeleiras Coleta Seletiva 50L',
+    categoryId: 'papeleiras-50l',
+    description: 'Estação 4 papeleiras 50L para separação padrão CONAMA.',
+    capacity: '4 Cestos de 50L (200L total)',
+    material: 'Polipropileno + Suporte em Aço',
+    dimensions: '430mm (L) x 1190mm (P) x 1820mm (A)',
+    colors: ['Verde', 'Amarelo', 'Azul', 'Preto', 'Branco', 'Marrom', 'Vermelho'],
+    image: '/ChatGPT Image 28 de jul. de 2026, 15_09_06.png',
+    catalogImage: '/ChatGPT Image 28 de jul. de 2026, 15_09_06.png',
+    featured: true
+  },
+
+  // ==========================================
+  // PÁGINA 7: LIXEIRAS MIX PLÁSTICO E INOX
+  // ==========================================
+  {
+    id: 'mix-60l-3c',
+    code: 'FL-MIX-60L-3C',
+    name: 'Lixeira Mix Inox 60L com 3 Cestos Internos',
+    category: 'Mix Plástico e Inox',
+    categoryId: 'mix-inox',
+    description: 'Lixeira circular em aço inox com 3 divisórias internas coloridas.',
+    capacity: '26 Litros',
+    material: 'Aço Inox com Cestos em PP',
+    dimensions: '315mm (Diâmetro) x 400mm (Altura)',
+    colors: ['Amarelo', 'Azul', 'Preto', 'Vermelho'],
+    image: '/ChatGPT Image 28 de jul. de 2026, 15_18_19.png',
+    catalogImage: '/ChatGPT Image 28 de jul. de 2026, 15_18_19.png',
+    featured: true
+  },
+
+  // ==========================================
+  // PÁGINA 8 & 9: CARROS COLETORES & CONTAINERS
+  // ==========================================
+  {
+    id: 'carro-240l-pedal',
+    code: 'FL-CAR-240PED',
+    name: 'Carro Coletor 240L com Pedal',
+    category: 'Carros Coletores com Pedal',
+    categoryId: 'carros-coletores',
+    description: 'Carro coletor de 240 Litros com rodas maciças e pedal.',
+    capacity: '240 Litros',
+    material: 'PEAD Virgem com proteção UV',
+    dimensions: '730mm (L) x 1080mm (P) x 580mm (A)',
+    colors: ['Verde', 'Amarelo', 'Azul', 'Marrom', 'Preto', 'Laranja', 'Branco', 'Cinza', 'Vermelho'],
+    image: '/ChatGPT Image 28 de jul. de 2026, 14_46_28.png',
+    catalogImage: '/ChatGPT Image 28 de jul. de 2026, 14_46_28.png',
+    featured: true
+  },
+  {
+    id: 'container-1000l-pead',
+    code: 'FL-CONT-1000PEAD',
+    name: 'Container 1000L com 4 Rodas',
+    category: 'Containers Industriais',
+    categoryId: 'containers',
+    description: 'Container pesado 1000 Litros com rodas giratórias.',
+    capacity: '1000 Litros',
+    material: 'PEAD Extra Reforçado',
+    dimensions: '1200mm (L) x 1270mm (P) x 1415mm (A)',
+    colors: ['Verde', 'Amarelo', 'Azul', 'Marrom', 'Preto', 'Branco', 'Cinza', 'Vermelho'],
+    image: '/ChatGPT Image 28 de jul. de 2026, 15_00_32.png',
+    catalogImage: '/ChatGPT Image 28 de jul. de 2026, 15_00_32.png',
+    featured: true
+  },
+
+  // ==========================================
+  // PÁGINA 10: LIXEIRAS INOX COM PEDAL
+  // ==========================================
+  {
+    id: 'cesto-inox-30l-pedal',
+    code: 'FL-INOX-30P',
+    name: 'Cesto Inox 30L com Pedal',
+    category: 'Lixeiras Inox com Pedal',
+    categoryId: 'inox-pedal',
+    description: 'Lixeira em aço inox 30L com pedal.',
+    capacity: '30 Litros',
+    material: 'Aço Inox Polido',
+    dimensions: '605mm (Diâmetro) x 310mm (Altura)',
+    colors: ['INOX'],
+    image: '/ChatGPT Image 28 de jul. de 2026, 14_49_52.png',
+    catalogImage: '/ChatGPT Image 28 de jul. de 2026, 14_49_52.png',
+    featured: true
+  },
+
+  // ==========================================
+  // PÁGINA 11 & 12: INOX FLIP TOP & COPOS/PILHAS
+  // ==========================================
+  {
+    id: 'inox-30l-flip',
+    code: 'FL-INOX-30FLIP',
+    name: 'Lixeira Inox 30L com Tampa Flip Top',
+    category: 'Inox Flip Top & Aro Colorido',
+    categoryId: 'inox-flip-aro',
+    description: 'Lixeira de inox 30L com tampa flip-top basculante.',
+    capacity: '30 Litros',
+    material: 'Aço Inox com Tampa PP',
+    dimensions: '240mm (Diâmetro) x 719mm (Altura)',
+    colors: ['Verde', 'Amarelo', 'Azul', 'Vermelho', 'Preto', 'Marrom'],
+    image: '/ChatGPT Image 28 de jul. de 2026, 15_18_19.png',
+    catalogImage: '/ChatGPT Image 28 de jul. de 2026, 15_18_19.png',
+    featured: true
+  },
+  {
+    id: 'lix-4-tubos-agua-cafe',
+    code: 'FL-COP-4TUB-MIX',
+    name: 'Lixeira 4 Tubos para Copos de Água e Café (500 Copos)',
+    category: 'Descarte de Copos & Pilhas',
+    categoryId: 'copos-pilhas',
+    description: 'Coletor com tubos divididos para copos de água e café.',
+    capacity: '500 Copos (Água e Café)',
+    material: 'Polipropileno de Alto Impacto',
+    dimensions: '520mm (A) x 240mm (Diâmetro)',
+    colors: ['Azul', 'Vermelho', 'Preto', 'Branco', 'Cinza'],
+    image: '/ChatGPT Image 28 de jul. de 2026, 15_42_34.png',
+    catalogImage: '/ChatGPT Image 28 de jul. de 2026, 15_42_34.png',
+    featured: true
+  }
+];
