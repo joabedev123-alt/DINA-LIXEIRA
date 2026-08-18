@@ -33,7 +33,7 @@ export const ProductModal: React.FC<ProductModalProps> = ({
     }, 1200);
   };
 
-  const whatsappLink = `https://wa.me/5511999999999?text=${encodeURIComponent(
+  const whatsappLink = `https://wa.me/5594991196781?text=${encodeURIComponent(
     `Olá! Tenho interesse no produto: ${product.name} (${product.code || 'S/N'}). Qtd: ${quantity}. Cor: ${selectedColor || 'Padrão'}. Por favor, me envie o orçamento.`
   )}`;
 

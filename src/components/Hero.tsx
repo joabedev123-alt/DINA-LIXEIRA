@@ -60,7 +60,7 @@ export const Hero: React.FC = () => {
           {/* CTA Buttons */}
           <div className="mobile-hero-buttons" style={{ display: 'flex', gap: '1rem', flexWrap: 'wrap', justifyContent: 'center' }}>
             <a
-              href="https://wa.me/5511999999999?text=Olá!%20Gostaria%20de%20receber%20um%20orçamento%20do%20catálogo%20da%20Fort%20Lixeiras."
+              href="https://wa.me/5594991196781?text=Olá!%20Gostaria%20de%20receber%20um%20orçamento%20do%20catálogo%20da%20Fort%20Lixeiras."
               target="_blank"
               rel="noreferrer"
               style={{

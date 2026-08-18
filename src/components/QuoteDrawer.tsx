@@ -43,7 +43,7 @@ export const QuoteDrawer: React.FC<QuoteDrawerProps> = ({
     return encodeURIComponent(text);
   };
 
-  const whatsappUrl = `https://wa.me/5511999999999?text=${generateWhatsAppMessage()}`;
+  const whatsappUrl = `https://wa.me/5594991196781?text=${generateWhatsAppMessage()}`;
 
   return (
     <div style={{
